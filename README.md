@@ -1,2 +1,2 @@
 # WarmasterBattlescribe
-BattleScribe data for Warmaster Revolutions
+BattleScribe data for Warmaster Revolutions: https://www.wm-revolution.com/
