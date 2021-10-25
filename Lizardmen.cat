@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4efd-494d-2cfb-5bf6" name="Lizardmen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="c99d-5f78-e465-f233" name="Skinks" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="1dc0-a28b-3610-caf3" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc0-a28b-3610-caf3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3a3b-7f9d-1d97-fa02" name="Skinks" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d7e5-72c4-7b1c-bdcf" name="Skinks" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+          <description>Skinks have a shooting range of 15cm. However, they can shoot from any edge without turning stands to face their target. Just measure the range from any stand edge, front, side or rear. Note that this enables them to shoot at enemies charging them from any direction.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2f2c-b2af-47ec-74c4" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="f1fd-ada3-4b5c-65be" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="db6c-1c11-c96d-712a" name="Salamanders" hidden="false" collective="false" import="true" targetId="6e0d-d9f2-70cc-7283" type="selectionEntry"/>
+        <entryLink id="627e-8990-5660-a7bd" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2246-ae70-38ee-9a44" name="Saurus" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="c2aa-fe18-e9c8-5aff" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2aa-fe18-e9c8-5aff" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e2fc-005a-dcd4-6750" name="Saurus" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca84-3825-3b9f-f2d9" name="Reptilian" hidden="false" targetId="c309-12d1-a33d-57a0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bd94-8861-25b4-809f" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="66ce-1c2b-14f0-8b77" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="da23-02a3-62f6-314f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1109-585a-46f2-df6d" name="Temple Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="d375-090d-1b6e-3036" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d375-090d-1b6e-3036" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="268f-89d1-021c-925d" name="Temple Guard" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c392-bd84-6897-322e" name="Reptilian" hidden="false" targetId="c309-12d1-a33d-57a0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e569-607a-3a03-9f63" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7c17-ca9e-f66b-a6a8" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6ed-1c4d-0020-d5b2" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d960-2d7c-4101-36b9" name="Kroxigor" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3170-4854-1fb3-dd16" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3170-4854-1fb3-dd16" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8351-9d62-9abc-aceb" name="Kroxigor" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e1bd-28e7-a91d-27b1" name="Reptilian" hidden="false" targetId="c309-12d1-a33d-57a0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="47ed-a9ee-3455-c2bc" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="2f2c-16a9-f2b7-97a1" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="02e7-a325-f122-c281" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad3b-ad52-8f11-3b14" name="Cold One Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e30d-6163-4e95-ea38" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e30d-6163-4e95-ea38" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="205d-45eb-aebe-6fa9" name="Cold One Riders" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e974-965e-e90b-4dce" name="Reptilian" hidden="false" targetId="c309-12d1-a33d-57a0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e89-b46a-68b9-faff" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="f824-0a80-1d77-2868" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7038-acfd-d753-6563" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e282-afa4-4f18-b8eb" name="Terradons" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="ecf8-1e0f-bcd9-3696" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf8-1e0f-bcd9-3696" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d021-6da0-5df9-47e7" name="Terradons" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3265-0be7-64b4-da29" name="Terradons" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+          <description>Terradons can fly. Terradon riders have a shooting range 15cm. However, they can shoot from any edge without turning stands to face their target. Just measure the range from any stand edge, front, side or rear. Note that this enables them to shoot at enemies charging them from any direction. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b3e7-65d9-3c13-38f3" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7e9-b789-6808-60ac" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="16b6-dba1-3e95-cd89" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0676-16f2-59de-addc" name="Stegadon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="ed2c-e61a-dee1-59e8" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2c-e61a-dee1-59e8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c7ef-a92a-3751-d1e1" name="Stegadon" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">10/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">10</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ad91-93b7-7689-5315" name="Stegadon" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+          <description>The model must be mounted onto a base 40mm frontage and 60mm depth - note that this is equivalent to three standard sized Warmaster bases glued together. 
+
+The Stegadon causes terror in its foes. 
+
+The Stegadon can only be brigaded with Skink units. It cannot be brigaded with Skink units that have attached Salamanders. It cannot be brigaded with any other units including with other Stegadons. The Stegadon&apos;s crew has a shooting range of 15cm. However, they can shoot from any edge without turning stands to face their target. Just measure the range from any stand edge, front, side or rear. Note that this enables them to shoot at enemies charging them from any direction. Because the Stegadon has so many hits we must consider the possibility of hurting the beast and reducing its effectiveness. Therefore, if a Stegadon has accumulated 6-9 hits by the end of the Shooting or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. Once a Stegadon is badly hurt all accumulated hits are discounted and its Hits and Attack values are halved for the remainder of the battle to 5/2 Attacks and 5 Hits</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="50d8-2553-b8cb-283f" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="4864-e8a9-fa5d-4d75" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e308-314d-4d03-4810" name="Slann Mage Palanquin" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ae82-c6d2-03e3-00b6" name="Slann Mage Palanquin" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">*</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3dd4-5099-afa0-4f9f" name="Divine Guidance" publicationId="38be-5c06-d4f9-7dbf" page="27" hidden="false">
+          <description>The Slann Mage is the army&apos;s general but uniquely amongst commanders he cannot give orders, but has foreseen the flow of the battle and given his Skink retainers instructions. To represent this any Skink character within 20cm of the Slann can announce his use of the General’s Divine Guidance - deducting -1 from his dice score (eg 8 counts as 7, 10 as 9 and so on). When Divine Guidance is used the Skink cannot ‘Blunder’ - any roll of double 6 simply counts as a fail. If a Divine Guidance roll is failed then the Slann’s Divine Guidance cannot be used by any other characters that have not ordered yet in that turn, their confusion over the mixup is represented by adding +1 to their first order rolls.
+
+</description>
+        </rule>
+        <rule id="311d-0a40-c00f-8dd7" name="Slann Mage" publicationId="38be-5c06-d4f9-7dbf" page="27" hidden="false">
+          <description>The Slann is a great sorcerer. He can cast spells as a Wizard and can be given a magic item restricted to either a general or wizard should you so wish. Slaan Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted. 
+The Slann Mage can also cast his spell using a Skink Shaman as the focus if desired - work out the spell as if it were cast from the Shaman, measuring and establishing a line of sight from the Shaman model. This does not affect the Shaman&apos;s own ability to cast spells that turn.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4b72-6b6b-3f54-87c9" name="New CategoryLink" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+        <categoryLink id="e74e-c41b-090e-5310" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="0717-eeba-1df1-9caf" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="42ba-e1aa-5522-75f2" name="Stegadon Mount" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7256-acbd-bf14-12c8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="04b8-4165-b61e-bfdc" name="Stegadon Mount" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+              <characteristics>
+                <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+                <characteristic name="Attack" typeId="591f-a188-569b-9065">+5</characteristic>
+                <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+                <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2015-0ec6-0a86-3b7d" name="Stegadon Mount" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+              <description>The Slann Mage may lose his palanquin and bodyguard and instead ride on top of a Stegadon. His attacks bonus is changed to that shown. If he rides a Stegadon then any unit he joins will cause terror and the usual Combat modifier will apply. No other character can ride a Stegadon.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="6763-d8a7-a7a2-4048" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="998c-8c4a-c885-bec0" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b1a1-bd8c-c3bb-c52b" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8501-1431-6774-7a14" name="Saurus Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="6323-a910-d62b-213f" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6323-a910-d62b-213f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="54a3-cfcc-0fae-acd5" name="Saurus Hero" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2c0d-d0ee-c626-ccaa" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c19-572d-0974-52ff" name="Carnosaur" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="9a96-86d3-1d17-8cce" value="1.0">
+              <repeats>
+                <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5f-596c-8e0a-2dc9" type="max"/>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a96-86d3-1d17-8cce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f995-8d34-18d3-5519" name="Carnosaur" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+              <characteristics>
+                <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+                <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+                <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+                <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bc41-6d95-eeb7-aedb" name="Carnosaur" publicationId="38be-5c06-d4f9-7dbf" page="27" hidden="false">
+              <description>A Saurus Hero can ride a Carnosaur. If a character rides a Carnosaur then any unit he joins will cause terror. No other character can ride a Carnosaur. </description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="fe4b-d345-a4dd-613c" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c015-1058-d4ba-fe22" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22cd-3dcf-926f-c1f6" name="Skink Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="3536-37cc-e5ba-490d" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3536-37cc-e5ba-490d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="388c-90e0-02f6-0acc" name="Skink Hero" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fffd-d114-6583-19f8" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ab79-3565-5404-abcf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a32-d1d6-26e0-26fe" name="Skink Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4dac-45b5-a87e-03e7" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dac-45b5-a87e-03e7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="744f-973a-16a0-8161" name="Skink Shaman" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4cbb-2d59-3151-95fb" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="c03f-7bef-e077-394c" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0b6f-ece2-e4c8-7d1e" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="9c3d-3bcc-a14a-479f" name="Dense Terrain" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+      <description>No command penalty is applied to any units in the Lizardmen army on account of dense terrain.
+The Lizardmen&apos;s ruin infested jungle homeland is mostly dense terrain and they are used to communicating through thick jungle and narrow tunnels by a mix of instinct and bizarre sub-sonic noises inaudible to other races.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="6e0d-d9f2-70cc-7283" name="Salamanders" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4b17-8bb6-b4c0-36fc" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b17-8bb6-b4c0-36fc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f403-5f07-00c4-fe51" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bee3-e633-59ee-d757" name="Salamanders" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">+1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ace6-cf2a-5b5c-f82f" name="Salamanders" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+          <description>Salamander stands never count as independent units under any circumstances. Instead you may add one stand of Salamanders to any Skink infantry units. This brings the size of the unit to 4 stands - ie 3 other stands plus the Salamander stand. The Salamander stand fights as part of the unit and can be removed as a casualty should the player who owns them wish to do so. A Salamander stands
+does not count as a loss upon the unit for purposes of Command penalties - ie if the Salamanders are removed leaving 3 Skink stands there is no -1 Command penalty on the unit. The Salamander stand doesn&apos;t count as part of the unit&apos;s formation when determining whether the unit is in a regular or irregular formation - ie the stand can be placed to the side, at an angle, or at a different orientation without
+affecting an otherwise regular formation.
+
+If a Salamander stand is attached to a Skink unit the entire unit, including the Salamander, is considered to employ &apos;Salamander Venom&apos; shooting attacks. Enemy Armour saving throws suffer a - 1 penalty when hit by Salamander Venom (eg 5+ save requires a roll of 6).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8344-2ce3-d60a-b054" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="1ae2-8fd0-cba1-15c0" name="Units" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="25.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="c309-12d1-a33d-57a0" name="Reptilian" publicationId="38be-5c06-d4f9-7dbf" page="26" hidden="false">
+      <description>Reptilian troops can only be issued an order by a character within 20cm. If reptilian units form part of a brigade an order can be issued so long as all reptilian units are within 20cm of the character issuing the order. This rule represents the creatures being cold-blooded brutes and slow to react. </description>
+    </rule>
+  </sharedRules>
+</catalogue>

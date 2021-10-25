@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b8ed-5c7d-45d7-f7cc" name="Kislev" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="3463-2ce6-3f2a-6ee9" name="Winged Lancers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a5c4-4e77-a3d4-735f" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c4-4e77-a3d4-735f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e557-28b9-3f6d-8532" name="Winged Lancers" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ce45-9df1-806b-2d70" name="Winged Lancers" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false">
+          <description>If a unit of Winged Lancers is charging against an enemy in the open it receives an additional +1 Attack modifier in the same way as chariots and monsters. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0def-d4e4-09fb-8348" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="4674-666f-7bfd-0690" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="badc-b433-cb83-98f0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8b7-6a7a-7708-74a5" name="Horse Archers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="47a9-489a-f5bd-49b8" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47a9-489a-f5bd-49b8" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="f541-5413-10e6-4228" name="Horse Archers" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d1ca-2713-ba40-fbd9" name="Kislevite Horsemen" hidden="false" targetId="60ed-f567-6950-0a4d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0c86-66e4-02b8-4473" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="0136-9f40-d274-fde6" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1882-aad6-7dac-6b36" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1dd-3dca-ae9d-6516" name="Cossacks" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="17f9-2b6b-e495-40fd" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f9-2b6b-e495-40fd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3de4-a17d-1494-023a" name="Cossacks" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c7eb-e231-f047-e869" name="Kislevite Horsemen" hidden="false" targetId="60ed-f567-6950-0a4d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="53b7-a9d3-f556-b775" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="2154-1592-5959-0877" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="88b5-b039-f3f7-1686" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44c8-b0a9-ffd8-023b" name="Bowmen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b0af-a6f5-f1fe-b9fb" name="Bowmen" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4312-ad8f-1888-f219" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="6bf6-3307-fe93-c53e" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="97ee-b855-75ab-acb7" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ced-9677-ee7c-c1aa" name="Red Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="ee33-00a6-c2dc-85e2" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee33-00a6-c2dc-85e2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7bcc-aa10-eba7-23ee" name="Red Guard" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="69b4-554e-d2fb-6476" name="Red Guard" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false">
+          <description>In addition to traditional Kislevite long axes Red Guard is armed with handguns. Count enemy armour values as one worse than normal when shot by a handgun. So an armour value of 3+ counts as 4+, 4+ as 5+, and 5+ as 6+, whilst an armour value of 6+ can’t save against a handgun</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2f44-cbbf-2544-6dce" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="2b0b-477c-3e63-6bba" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2d6-eba6-7b83-20c1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ef2-10f3-be7d-3987" name="Axemen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5b3d-8d89-1f00-7c5f" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3d-8d89-1f00-7c5f" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e369-c628-1fc2-e036" name="Axemen" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1bd4-34d6-88a6-0594" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="6e37-3ca8-0458-bb5f" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="303a-a125-6fa4-c665" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb08-ebae-8492-5d85" name="Bears" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="8d34-e3f1-c909-8211" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d34-e3f1-c909-8211" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e917-e189-b811-b97c" name="Bears" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f934-3e0f-1bbd-9009" name="Bears" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false">
+          <description>Bears cannot be brigaded with other units only with other units of Bears. 
+
+Bears are defined as infantry for rules purposes as this gives them the appropriate mobility for such creatures, but they add +1 Attack when they charge an enemy in the open in the same way as monsters and chariots. 
+
+A Bear unit that scores more hits than it suffers in the first round of a combat will automatically strike one more Attack per stand before the combat result is worked out. Resolve these Attacks as normal and then calculate results. 
+
+Bears must pursue retreating enemy where possible and must advance if they are able to do so.
+
+Note that these rules apply only to Bear units - not to characters riding a Bear or Shaman that have transformed in Monster Bear.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0c51-d563-fb00-b521" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="d2fd-8a8a-18ab-d6da" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52b5-b14e-d2d6-1249" name="War Wagon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="544b-c682-299e-3bff" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="544b-c682-299e-3bff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fd32-0f86-3ed3-c0b2" name="War Wagon" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4/4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">5</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+/-</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="81d0-d3f9-54b5-6e2c" name="War Wagon" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false">
+          <description>The War Wagon unit consists of two separate stands: the wagon stand with the wagon on it and the team stand with horses on it. The unit must always be in one of two formations: a wagon column with the horse team in front of the wagon, and a wagon laager with the horse team placed beside the wagon edge to edge.
+
+When a War Wagon moves it must always finish its move in a wagon column. In other respects the wagon unit moves
+like any other unit of two stands. The wagon cannot charge an enemy. Its movement rate is 20cm at full pace and 10cm at half pace the
+same as infantry. A unit in wagon column at the start of the move moves at full pace, a unit in wagon laager at the start of the move moves at half pace. A wagon treats terrain in the same way as artillery.
+
+A War Wagon in wagon column formation can be given an order to form a laager. A War Wagon can also form a laager using initiative - i.e. if visible enemy are within 20cm at the start of the move. This is an exception to the normal rules for initiative, which allow units to charge or evade as described in the rulebook. Note that a wagon cannot move and form laager by means of a single order - a separate
+order is required to form a wagon laager. When a wagon forms laager, either stand can be pivoted to face any
+direction, the other stand is then placed in formation alongside it.
+
+Either stand can be removed as a casualty if sufficient hits are inflicted to remove a stand from the unit. The War Wagon has an Armour rating of 4+ so long as the wagon stand is present. If the wagon stand is removed as a casualty the remaining team stand has no Armour (no save). 
+
+The War Wagon can shoot all around and can draw a line of sight from any exposed edge. Though consisting of two stands, the War Wagon cannot make more than four shooting attacks in total.
+The wagon has a range of 30cm.
+The target’s armour value counts one worse than usual, for example 4+ counts as 5+, and 6+ becomes 0. 
+The wagon is permitted to shoot over the heads of friendly troops on lower ground in the same way as other artillery (see page 73). 
+Note that the wagon’s Attacks are a combination of crewmen and light guns - shots do not ‘bounce’ as described under the rules for Cannons in the Warmaster rulebook.
+
+A laagered wagon counts as a defended unit. A wagon column counts as in the open. A laagered wagon unit counts all its edges as front edges - it has no sides or rear and no combat penalties are applied on account of fighting to the side or rear.
+
+Though consisting of two stands, the War Wagon can never make more than 4 attacks in combat in total.
+
+A laagered wagon cannot be driven back or routed by shooting. However - it is still deemed necessary to roll drive backs (remember it is defended) to determine if War Wagon becomes confused on a roll of a 6. The same applies to Gerroff!!! spell. Roll the dice as normal. If the wagon would normally have left the table then roll 1 D6. If a 6 is rolled it is confused. 
+
+If a wagon column is engaged in combat then it cannot pursue if it wins the combat round, and it is destroyed if forced to retreat. Note this is the standard rule for artillery. If a laagered War Wagon is engaged in combat then it will neither pursue nor retreat regardless of the combat result. The War Wagon is not destroyed in the same way as artillery if it loses a combat round. It always holds its ground regardless of the result and continues to count as defended in subsequent rounds. An enemy unit that wins a round of combat against
+the wagon can continue to fight by ‘pursuing’ in the normal way, but no pursuit bonuses are gained for doing so.
+
+Any Kislev infantry unit positioned so that the side edge of at least one stand touches any edge of the wagon stand (not the team stand) of a laagered War Wagon unit counts the whole unit as defended for purposes of shooting and combat (i.e. the infantry unit must line up so that the wagon stand and any infantry stand from the unit would be in a mutually supporting position were they both infantry). This assumes some intermingling of infantry in the wagon laager which is otherwise impossible to represent, but can be readily imagined. This advantage applies only in the first round of combat when charged, in exactly the same way as defended units on high ground or amongst woods or other dense terrain. 
+Note that these associated infantry do not retain defended status in subsequent rounds as does the War Wagon itself, even where they remain in touch with the wagon stand.
+
+Note that as described above, either the wagon or the team stand can be removed as a casualty - it is up to the player to decide which to remove. If the horses are removed the War Wagon cannot move. If the wagon is removed the horses can move but obviously cannot attack - this gives the player the opportunity to retreat the ‘horses’ out of harms way thus avoiding losing the unit. The unit is not destroyed until both stands have been removed as normal.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="88bb-243e-9c34-270b" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="e168-5afa-d772-8744" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16c6-18c4-15e2-c3c0" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="a9c8-b8dd-3bb7-cc96" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c8-b8dd-3bb7-cc96" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="78f2-0556-0f88-41d9" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d1f8-e7e0-f7a7-924f" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1af5-9598-e057-1479" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50e8-c900-9e06-5a15" name="General" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="0b16-dd61-6889-c8ef">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f773-2d1b-d600-3264" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="c1d4-2268-0c44-2cb9" name="General" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2efd-104d-185c-778d" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="e257-f43a-5b97-9070" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f773-2d1b-d600-3264" name="Tzarina" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8334-af5c-5ff6-f898" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="97b7-efbd-91e9-0685" name="Tzarina" publicationId="38be-5c06-d4f9-7dbf" page="33" hidden="false">
+              <description>The General may be a Tzarina of the royal blood - perhaps Tzarina Katrina herself. The Tzarina rides a horse-drawn sled - note this is not a chariot! The Tzarina can cast spells like a Wizard and can carry a magic item restricted to a Wizard if desired. Once during the battle the
+Tzarina can add +1 to the dice when attempting to cast a spell. The player must announce that the Tzarina’s special spell casting bonus is being used before rolling for the spell</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b56b-aea0-8db3-d8ac" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d821-fdda-3d3c-a43a" name="Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="edcd-4edf-5622-9209" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edcd-4edf-5622-9209" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="25cd-cf6f-2439-438b" name="Shaman" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a3bd-992b-fe2a-8135" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="9083-30c1-7850-f873" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="830a-874c-b016-45c2" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="fd49-f115-eea0-280d" name="Bear" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="f3eb-66bf-df2f-98ec" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3eb-66bf-df2f-98ec" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ce14-80bf-aedf-8e72" name="Bear" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a3fe-57f5-c89b-fefb" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c978-7786-5e40-7dcb" name="Yozhin" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a043-12ae-7179-d79f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e00e-08c8-0c36-6f9c" name="Yozhin" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9041-bc04-8643-ba08" name="Yozhin" hidden="false">
+          <description>This creature lives in swamps near the Praag since the great incursion of Chaos. Yozhin strongly hates any kind of Chaos, being (possibly) chaos-twisted creature itself. Only powerful Shamans may summon Yozhin and make it to fight on their side.
+
+A single Shaman in the army can be assisted by Yozhin. There is no restriction of going into any water/boggy/swamp terrain for him. A unit that has been joined by a Yozhin riding Shaman causes terror in its enemies. Yozhin adds +1 Attack to Shaman’s attacks value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5b41-79fc-bd3e-8614" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="53c8-1cff-44e4-bdaa" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="40.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="1af1-3bf7-026c-d180" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1086-edb1-1025-03aa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5417-a289-1c4c-56ab" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4d0b-3456-e40d-24c8" name="Bear" hidden="false" collective="false" import="true" targetId="fd49-f115-eea0-280d" type="selectionEntry"/>
+        <entryLink id="a065-3f36-e56a-fabe" name="Yozhin" hidden="false" collective="false" import="true" targetId="c978-7786-5e40-7dcb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="60ed-f567-6950-0a4d" name="Kislevite Horsemen" publicationId="38be-5c06-d4f9-7dbf" page="32" hidden="false">
+      <description>Kislevite Horsemen have only a short range (15cm). They can shoot behind or to the side without turning stands to face their target. Just measure the range from any stand edge, front, side or rear.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

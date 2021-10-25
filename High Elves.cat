@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="79af-43ba-dc5b-1a0c" name="High Elves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="9de5-baca-8f8b-21c3" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6ec3-58a6-9e07-7b1a" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ec3-58a6-9e07-7b1a" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a9d0-1c7d-198b-b8db" name="Spearmen" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4b27-b8be-d425-0337" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="55f9-32f0-af9c-52eb" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b6c2-4ab4-bbcb-7fdd" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2d5-6fc2-332b-d4f2" name="Archers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="bfce-8e89-9c33-50f1" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfce-8e89-9c33-50f1" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="5c13-eb92-08f3-f066" name="Archers" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3af5-2cc5-5760-3c94" name="Archers" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false">
+          <description>High Elf archers add +1 to their dice roll when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fb71-b7e6-15ae-dc9d" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="cef1-aacf-65cb-7935" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c0bd-be57-2325-9a1f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0ec-8472-0cfa-3a95" name="Silver Helms" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="75cc-8dd0-322f-ad7d" name="Silver Helms" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5727-2d7e-2ffa-38c5" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="50e3-9137-26ab-1dbe" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9b34-61eb-298f-3cac" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07af-043d-0f6b-c63a" name="Reavers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="fa76-4850-f4ea-ddc8" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa76-4850-f4ea-ddc8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0f96-3c9e-9628-4ae1" name="Reavers" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="92f1-4199-3b3a-00c2" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="475b-0081-ecb2-a8ce" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f1b5-96d5-11c6-ae9e" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8be-f6e5-c186-d17c" name="Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="73e3-2c17-1113-7ab6" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73e3-2c17-1113-7ab6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3272-15f1-8fc4-2577" name="Chariots" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Chariot</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a0ba-8fb8-8dda-7e66" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="d4f9-ec2c-9342-52f8" name="Chariot" hidden="false" targetId="7614-125d-7c9b-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="45f0-f1c0-069b-0e07" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d92-e72c-88ed-14cb" name="Giant Eagles" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="852e-2ff8-5d5b-2014" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="852e-2ff8-5d5b-2014" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="312f-7b86-9022-f519" name="Giant Eagles" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c6a7-f7a8-d72e-9db3" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0870-3428-b40b-16c0" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="cf91-8a27-1a90-3ce4" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="683c-bb0a-6e7d-b8f2" name="Dragon Rider" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7c0a-352b-d32c-0702" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c0a-352b-d32c-0702" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1a19-c587-26cc-d287" name="Dragon Rider" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">6/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">6</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a65d-bbd9-c89a-9a65" name="Dragon" hidden="false" targetId="8cbc-01d9-e08b-168f" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f50c-b505-ef27-19b6" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="facb-48d4-7788-0086" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="851d-4b84-88d6-cc67" name="Elven Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="2951-5bd1-fbea-45bc" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2951-5bd1-fbea-45bc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fa72-61d4-5fef-6f61" name="Elven Bolt Thrower" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3629-0b41-4be1-f066" name="Elven Bolt Thrower" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false">
+          <description>Elven Bolt Thrower has range of 40cm.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d56b-ca33-44bb-120a" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="8e9d-048d-d844-4db9" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="358b-6e1c-98e2-b936" name="General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6df1-501c-ac45-15b1" name="General" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6e27-1eb5-baa3-3103" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+        <categoryLink id="0ec4-e426-a784-d30b" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6102-6e37-9992-dcb3" name="Mount" hidden="false" collective="false" import="true" targetId="53e4-c55d-8f19-ecfa" type="selectionEntryGroup"/>
+        <entryLink id="1ef6-11f6-a1ff-1081" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6812-d92d-b8e3-abde" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="52e3-8e0a-fb81-1f2a" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52e3-8e0a-fb81-1f2a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b62f-c6b3-f24b-b401" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="170c-eeee-f98b-259b" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d691-87e4-a932-b325" name="Mount" hidden="false" collective="false" import="true" targetId="53e4-c55d-8f19-ecfa" type="selectionEntryGroup"/>
+        <entryLink id="c095-5aa7-676b-acdf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69d8-deb9-ca01-bdbb" name="Wizard" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="1b22-9257-e437-85c2" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b22-9257-e437-85c2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c09a-f6d9-26fa-7123" name="Wizard" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7ef6-ff76-0362-57a9" name="High Elf Wizard" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false">
+          <description>High Elf Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d8fb-a84e-cdf3-6bcb" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="95d3-1872-b1dd-d827" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e812-9146-008f-5224" name="Mount" hidden="false" collective="false" import="true" targetId="53e4-c55d-8f19-ecfa" type="selectionEntryGroup"/>
+        <entryLink id="e1fa-7268-ce35-9950" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="05a4-2ae1-e742-2146" name="Giant Eagle" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="6804-2142-054a-403e" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6804-2142-054a-403e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9404-a0d3-be74-8ded" name="Giant Eagle" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bdd9-8f41-fc8b-a2e6" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cd64-f47c-bc57-6390" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b46-75c5-8d26-77a2" name="Dragon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c796-4f54-8ccd-41f9" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c796-4f54-8ccd-41f9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f7ae-f525-3f95-7a6d" name="Dragon" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+3</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8b57-4b5d-0846-065e" name="Dragon" hidden="false" targetId="8cbc-01d9-e08b-168f" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="550d-facc-0c57-c448" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e76f-f5b5-318f-8705" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="992a-7b90-d7cc-d92c" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="992a-7b90-d7cc-d92c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6637-2a37-3533-b06c" name="Chariot" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8bf2-d8cb-9f62-0dc5" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="53e4-c55d-8f19-ecfa" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e130-f0b3-08da-93d1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2b11-43e7-2df7-40ef" name="Dragon" hidden="false" collective="false" import="true" targetId="9b46-75c5-8d26-77a2" type="selectionEntry"/>
+        <entryLink id="d5b3-eee7-9aee-f48e" name="Giant Eagle" hidden="false" collective="false" import="true" targetId="05a4-2ae1-e742-2146" type="selectionEntry"/>
+        <entryLink id="adb1-7bbe-2840-ed9e" name="Chariot" hidden="false" collective="false" import="true" targetId="e76f-f5b5-318f-8705" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="b63b-f250-f319-90f8" name="Dragon" publicationId="38be-5c06-d4f9-7dbf" page="17" hidden="false">
+      <description>Dragons can fly. Dragon rider units and any other units that include a Dragon riding character cause terror in their enemies.
+
+Because Dragon Riders have a great many hits (6) which are difficult to inflict even during a lengthy combat engagement, we must consider the possibility of hurting the Dragon and reducing its effectiveness in subsequent turns. Therefore, if a Dragon Rider has accumulated 4-5 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. Once a Dragon has been badly hurt all accumulated hits are discounted and its maximum hits value and Attacks are halved for the rest of the battle (to 3 Hits and 3/2 Attacks).
+
+Generals, Wizards and Heroes can ride Dragons. A Dragon can fly increasing its rider&apos;s move from 60 to 100cm. An extra +3 Attacks are added to those of its rider. A Dragon can breath fire if the character has joined a unit that isn&apos;t engaged in combat. A Dragon ridden by a character can&apos;t breath fire if it is not part of a unit. </description>
+    </rule>
+  </sharedRules>
+  <sharedInfoGroups>
+    <infoGroup id="8cbc-01d9-e08b-168f" name="Dragon" hidden="false">
+      <infoLinks>
+        <infoLink id="96a2-1631-cf04-ce26" name="Dragon" hidden="false" targetId="b63b-f250-f319-90f8" type="rule"/>
+        <infoLink id="9270-bbc0-6653-f1c7" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+        <infoLink id="e45d-832a-885a-69fc" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1fdb-94ae-0833-eed6" name="Skaven" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="8c87-8284-461f-653a" name="Clanrats" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="dc50-a6e6-1ea3-bb4b" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc50-a6e6-1ea3-bb4b" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="5350-5d26-b06e-30d9" name="Clanrats" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4c4e-af7b-441a-3e30" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="6768-1989-1348-c5aa" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="deb8-e8f0-3e57-215f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e0a-6fed-a0a6-a616" name="Stormvermin" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="aebd-4aeb-f19b-a527" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aebd-4aeb-f19b-a527" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="03c2-6707-7d40-5f78" name="Stormvermin" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e6e2-da73-e55c-37cf" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="0b4b-e2b9-9a2c-e693" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eabc-d936-0c78-c6cf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d96-6555-a15d-42d4" name="Jezzails" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3572-2cfb-e18a-a57a" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3572-2cfb-e18a-a57a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3849-b8d5-9d59-c0a5" name="Jezzails" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e4bb-414c-0304-fd25" name="Jezzails" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>Count enemy armour values as one worse that normal when shot by a jezzail. So, for example, an armour value of 3+ counts as 4+, 5+ counts as 6+, and 6+ can&apos;t save against a jezzail. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b3af-164b-a2f2-3e65" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="12e3-b994-144d-e0a3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="daea-2a5e-a5f6-ff33" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ecd9-6b07-e62c-d681" name="Plague Monks" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="c32e-bf28-c33f-8d5d" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c32e-bf28-c33f-8d5d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a282-5153-99d0-9f59" name="Plague Monks" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1cde-3a78-04fa-5862" name="Plague Monks" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>A unit of Plague Monks will always use its initiative to charge an enemy if possible and can&apos;t be given orders instead. They will never use their initiative to evade. They can&apos;t be driven back by shooting and never roll for drive backs. If victorious in combat they must pursue where
+possible. 
+
+Plague Monks are unaffected by enemies that cause terror in combat, they do not suffer the usual -1 Attack modifier.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="43d6-32ba-2c3d-b6fb" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="55e4-a91f-a622-1f95" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6d4-b93e-ae09-3eb9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f9d-3d12-0da6-e8a9" name="Rat Swarms" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="117e-a748-83e5-9664" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="117e-a748-83e5-9664" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="bb78-46c9-540d-3f4a" name="Rat Swarms" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="92a0-8db6-80e3-3614" name="Rat Swarms" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>Rat Swarms cannot be driven back by shooting and do not roll for drive backs.
+A Rat Swarm stand cannot be supported by other kinds of infantry - only by other Ratswarm stands. Note, however, that Rat Swarms can support other kinds of infantry as normal.
+A Rat Swarm cannot be given Magic items.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3506-8056-607b-d7d0" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="db81-ff44-6ea3-bad4" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b8c-4106-d1af-5f17" name="Gutter Runners" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="4db1-135a-fd6b-bc8c" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4db1-135a-fd6b-bc8c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6698-e478-2625-61b6" name="Gutter Runners" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0508-3747-3ebd-8692" name="Gutter Runners" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>Gutter Runners are armed with throwing stars and darts, and are therefore allowed to shoot as if they had bows, but their range is reduced to 15cm. However, they may shoot from any edge without turning stands to face their target.
+
+In addition, Gutter Runners do not have to be deployed before the game if the player does not wish to do so. 
+Instead individual units can be infiltrated onto the battlefield once the game has begun. 
+
+To infiltrate a unit, the Skaven player nominates the point where he wants the Gutter Runners to appear and issues an &apos;infiltration&apos; order from any character. The character does not have to be within his normal command range to issue an infiltration order - the character&apos;s command range is considered to extend over the entire tabletop when issuing an infiltration order. Treat the order as issued to the nominated point, and apply any modifiers for distance and proximity of enemy, but ignore penalties for dense terrain. The nominated point must lie either on the table within dense terrain or on any base edge other than the enemy player&apos;s own table edge. 
+
+If successful, place one stand on the nominated spot and arrange the rest of the unit into formation around it. The infiltrated unit cannot be placed so that it touches an enemy unit. Once deployed, orders can be given to the unit by the same character that gave the infiltration order if he is within his normal command range, the infiltrating unit is considered to have used its first order to deploy. If the infiltration order is failed the unit is not deployed and cannot infiltrate that turn, it can attempt to infiltrate in a subsequent turn at the same or a different place</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0aee-5e0a-206e-708c" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="3e77-4d42-843c-e4cd" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bbee-e101-0286-f03c" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd9e-f5a4-48d2-d097" name="Rat Ogres" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="9140-6907-5289-39d4" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9140-6907-5289-39d4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1a1d-a313-bca0-9e30" name="Rat Ogres" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6dac-7559-76a0-dbda" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="9805-5593-cdb2-55c5" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d9e7-0d28-684f-2ea9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98d1-f19d-0ca4-3ac9" name="Warp Lightning Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="f640-e93e-7e0e-82e0" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f640-e93e-7e0e-82e0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1c90-1a80-f897-a0ec" name="Warp Lightning Cannon" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/D6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0bd8-dbde-a043-4654" name="Warp Lightning Cannon" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>The Warp Lightning Cannon has a range of 40cm. It has D6 Attacks - generate the number of Attacks and then roll for each Attack as usual. However, if the number of Attacks is 1 this indicates something has gone wrong.
+Roll the D6 again and work out this many Attacks against the Warp Lightning Cannon itself. Units that take casualties from the Warp Lightning Cannon are not driven back as a result - disregard these casualties when working out drive backs. 
+
+Units that take one or more casualties from a Warp Lightning Cannon must roll a D6 immediately and on a roll of 6 become confused. Units that are adjacent to a unit taking casualties from a Warp Lightning Cannon can also potentially become confused. Roll a D6 for each unit that is touching the target unit. On a roll of a 6 the unit becomes confused. Note that it is possible for Skaven units to become confused if they are touching the Warp Lightning Cannon when it goes wrong and inflicts casualties upon itself</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="18e7-b197-65e1-2d09" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ccf8-9538-4002-cc47" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4123-f4c5-74df-5536" name="Doom Wheel" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="fba3-eab8-e101-9d40" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fba3-eab8-e101-9d40" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="39fd-44f6-1f88-4ba8" name="Doom Wheel" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Machine</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="345f-20e3-83fb-c82a" name="Doom Wheel" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>When the Doom Wheel charges against targets in the open it receives D6 bonus Attacks in addition to the normal +1 Attack for charging. Note that this bonus applies only when charging - not during pursuits, advances and not when the Doom Wheel is charged itself. 
+A Doomwheel has a move of 20cm and causes terror.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ea84-d0ef-6ad5-e0b2" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ac1-33be-dd84-a02b" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="585f-7839-1843-7c4a" name="Machine" hidden="false" targetId="0632-e402-6241-e44c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32c9-f9c6-af84-8e5c" name="Grey Seer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fbb3-215a-a75d-7059" name="Grey Seer" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dfa4-c5de-3188-26e5" name="Grey Seer" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>The Grey Seer is the army&apos;s General and can use Skaven magic in the same manner as a Warlock.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fd67-ac6a-f795-fd54" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="5b2f-afef-fb25-8195" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+        <categoryLink id="48b5-eb2c-32cd-e755" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3fbe-61e1-17bc-bd9a" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a6f-1dcd-5357-3b35" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="94f1-0d6b-ac56-1610" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="94f1-0d6b-ac56-1610" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5cf8-b1a4-c8a5-50bf" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ecbc-fdc5-57a7-591c" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7471-2afb-7653-a2bf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c346-3ab4-156c-b267" name="Warlock" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="3cc0-988a-da55-1f5d" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3cc0-988a-da55-1f5d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="949d-63f5-6e84-e3ba" name="Warlock" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4f22-98f0-8680-3f0f" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="ea73-c000-ccdc-7cf4" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1744-f062-8180-e146" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="724c-93bb-4326-07ec" name="Screaming Bell" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a09-2075-c808-1860" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1ea2-7876-6c6d-376f" name="Screaming Bell" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Machine</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">0</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6cff-f4e2-76b5-2a05" name="Screaming Bell" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+          <description>A Screaming Bell is a gigantic device - it cannot move of its own accord - but relies upon the great mass of Skaven to push it forward.  The Screaming Bell can therefore only move in the Command phase if it forms a brigade with one or more infantry units. It can then move 20cm at infantry pace. 
+
+It cannot move using initiative and cannot be driven back by shooting and does not roll for drive backs. In combat it is automatically destroyed if forced to retreat but will pursue, advance and fall back so long as it is touching a Skaven infantry unit at the start and end of its move: otherwise it cannot pursue, advance or fall back as it is unable to move of its own accord. 
+
+All Skaven units touching the Screaming Bell are unaffected by the usual penalty for Terror whilst they remain so. In addition, any
+Skaven Hero or Warlock within 30cm of the Screaming Bell adds +1 to their Command value. 
+
+Any enemy character within 30cm of the Screaming Bell deducts -1 from their Command value. 
+
+A Skaven army can only ever include a maximum of 1 Screaming Bell no matter how large.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="88e5-ea6b-d9ba-1951" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="2ea0-aaf9-ce42-ef9a" name="Machine" hidden="false" targetId="0632-e402-6241-e44c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="7a0c-44f0-63c0-33c2" name="Strength in Numbers" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+      <description>Brigades may be of any size and are not restricted to the normal four unit maximum.</description>
+    </rule>
+    <rule id="7157-bbf6-f7f0-193b" name="Under the Lash" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+      <description>All Skaven characters have a Command range of 20cm whether General, Heroes or Wizards. Even Skaven Generals have a Command range of 20cm. Skaven are very good at directing their underlings - but only so long as they remain close at hand. We call it &apos;under the lash&apos;.</description>
+    </rule>
+    <rule id="4a69-2dfe-a76f-89b2" name="Vermintide" publicationId="38be-5c06-d4f9-7dbf" page="23" hidden="false">
+      <description>Skaven units that win a round of combat can choose to pursue retreating enemy units regardless of troops type. Any Skaven units (including artillery) can pursue any enemy units (including flyers, cavalry and chariots). Although allowed to pursue regardless of enemy troop type, Skaven are still constrained by terrain and fortified status the same as other armies – eg they cannot pursue if fortified.</description>
+    </rule>
+  </rules>
+</catalogue>

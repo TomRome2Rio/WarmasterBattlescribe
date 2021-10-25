@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="31db-d28e-85ed-2880" name="Orcs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="c133-03b9-d234-3381" name="Orc Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6396-8b8f-4100-37d1" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6396-8b8f-4100-37d1" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9e0d-712d-1d06-e34b" name="Orc Warriors" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1615-571a-b17b-1031" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="0976-251e-314b-f4b3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fcbe-c8cb-5b95-c414" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1d8-85e5-cf44-8996" name="Black Orcs" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="457e-e758-8928-9646" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="457e-e758-8928-9646" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6522-2ecc-2972-a109" name="Black Orcs" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="97e5-7b8b-9314-197f" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="5a82-5325-f77d-4235" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bca5-2881-ffe1-fb12" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c5d-94de-901d-8b44" name="Goblins" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5bdc-5b48-8877-e8ff" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5bdc-5b48-8877-e8ff" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="408c-05cd-db6b-b33c" name="Goblins" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="75f7-4625-da5f-fab5" name="Goblins" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false">
+          <description>A Goblin unit is allowed to shoot as if it had bows but its range is reduced to 15cm</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2dc7-a099-c9ea-6c3a" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="301c-087a-244c-8b11" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5349-523b-ddd0-fb8d" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c7e-c51d-fd50-6dde" name="Trolls" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a6cb-a6a9-3cbc-ffd9" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a6cb-a6a9-3cbc-ffd9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="08bd-f782-4bb9-e7b1" name="Trolls" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="be2b-ad67-8629-456d" name="Trolls" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false">
+          <description>When trying to issue an order to a unit of Trolls or to a brigade that contains a unit of Trolls, there is always a -1 Command penalty. 
+
+Trolls can regenerate wounds - in each round of combat after whole stands have been removed Trolls automatically regenerate one outstanding hit. If no hits are left over after removing whole stands then regeneration has no effect. Regenerated hits still count towards the combat result for the round. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="aa9f-31d5-4d19-b857" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="948c-f0e1-846c-fae4" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="754e-2040-4dde-51d9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="661e-46df-07ed-53f4" name="Ogres" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="df7f-b7b4-01cf-3035" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df7f-b7b4-01cf-3035" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a72e-cf4e-53cb-ec38" name="Ogres" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2175-dd3a-d464-1d06" name="Ogres" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false">
+          <description>If an Ogre unit can use its initiative to charge an enemy unit of humans at the start of the Command phase then it must do so. This happens automatically and their commander can do nothing about it. &apos;Humans&apos; encompasses all &apos;men&apos; including Chaos Warriors and Marauders, but not Dwarfs, Elves etc. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4256-f347-9d51-5d4e" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="88ad-3652-7108-9409" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4884-6291-fdfe-4d6d" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae29-6f22-3243-09ab" name="Boar Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ff08-0847-4639-eb4c" name="Boar Riders" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e630-bf97-9ca4-f61e" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="eba7-595b-6461-b380" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eebf-23f1-9e9c-7eaa" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9659-e224-22c8-0899" name="Wolf Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="36f2-6463-19a8-9ceb" name="Wolf Riders" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="023d-41f0-29a2-78be" name="Wolf Riders" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false">
+          <description>The Wolf Rider&apos;s range is restricted to 15cm. Wolf Riders can shoot behind or to the side as well as to the front. Just measure the range from any stand edge, front, side or rear. They can therefore shoot at enemy charging them from any direction. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fbc8-93ea-80f8-e947" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ae03-7118-7c13-a4b5" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="234e-e36b-4e62-8d13" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="276e-18f9-a131-46dd" name="Wolf Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="1720-15ec-cc71-9627" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1720-15ec-cc71-9627" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f42d-ecf5-040c-fa42" name="Wolf Chariots" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Chariot</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="debc-c272-6b74-7934" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="f084-05f0-a7f8-9fe7" name="Chariot" hidden="false" targetId="7614-125d-7c9b-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3d72-40da-97a9-5ce1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="886f-47ae-3d69-604f" name="Giant" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="f325-22fe-97e7-2be2" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f325-22fe-97e7-2be2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e30a-1997-e589-225a" name="Giant" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">8</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dad5-033f-9f05-b7f7" name="Giant" hidden="false">
+          <description>Giants have a great many hits, 8 in fact, which are almost impossible to inflict during even a fairly lengthy combat engagement. Because Giants have so many hits we must consider the possibility of hurting the Giant and reducing its effectiveness in subsequent turns. Therefore, if a Giant has accumulated 4-7 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. 
+Once a Giant is badly hurt all accumulated hits are discounted and its maximum Hits value and Attacks are halved for the rest of the
+battle (to 4 Hits and 4 Attacks). A Giant causes terror in its enemies. 
+
+Giants must always be given a separate order. They cannot be brigaded with other troops, although several Giants can be brigaded together if you so wish. If you attempt to give an order to a Giant and fail then you must take a test to see what it does. Ignore potential blunders - these are taken into account by the following rules. Roll a dice and consult the Giant Goes Wild chart. Where Giants are brigaded together roll for each separately.
+
+Giant Goes Wild Chart
+D6 (On no! What&apos;s he doing now!)
+1 The Giant will neither move nor fight this turn but simply stands rooted to the spot looking dopey.
+
+2 Move the Giant directly towards the nearest table edge. If he moves into another unit he will attack it regardless of which side it is on. If victorious in combat the Giant will hold his ground
+
+3 The Giant picks up a rock, tree, abandoned cart, outhouse or whatever comes to hand and throws it at the closest unit - friend or foe - that he can see. The object travels 5xD6cm and, if it travels far enough to hit its target, strikes with 3 Attacks worked out in the usual way.
+
+4 The Giant moves straight forward at full pace in the direction he is facing in. If he reaches an enemy unit he will attack as normal. If he reaches a friendly unit he will walk straight through and out the other side if there is room and he has sufficient move. If he reaches a friendly unit and does not have sufficient move or enough room to walk all the way through then he halts on contact. A friendly unit that is walked through or contacted in this way instantly becomes confused for the remainder of the Command phase. Such a unit ceases to be confused at the end of the Command phase along with other confused units.
+
+5 The Giant moves towards the nearest enemy unit that he can see as fast as he can. If he reaches the foe he will attack as normal. If friends are in the way he will walk through them causing confusion as described above.
+
+6 The Giant gives a mighty bellow and rushes straight at the nearest enemy unit that he can see. Move the Giant at double his normal full pace move. If he reaches an enemy unit, he fights by jumping up and down on the foe, furiously doubling his Attacks value in the first round of combat.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="498d-b3e9-c583-88cd" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cec6-c4a3-114a-3d18" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="0453-ccb0-0451-2352" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d995-d9b6-d03f-3370" name="Rock Lobber" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="8dd0-eada-6a8c-cdbd" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8dd0-eada-6a8c-cdbd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4ba3-ad85-02b4-2c3d" name="Rock Lobber" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d3d9-92d9-4957-ea30" name="Rock Lobber" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false">
+          <description>Rock Lobber is a Stone Thrower as described in Artillery and Machines section of the rulebook.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4b1e-ce79-5434-7999" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7085-f4e9-bfab-4f50" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b33-d0c7-652c-f670" name="Orc General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4ab3-a416-d85e-851e" name="Orc General" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3557-a2c6-51e1-dc35" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="b3b6-9f17-864a-976c" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c399-b37f-0cd8-b0a1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="d879-2b7c-464b-2f55" name="Mount" hidden="false" collective="false" import="true" targetId="d103-641f-7684-10ad" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f45-90ac-4f0d-01c8" name="Orc Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="bf7e-4fda-8579-268e" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf7e-4fda-8579-268e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="90f0-1fd9-2d5f-5f0c" name="Orc Hero" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="19bc-f1a8-03f3-9788" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f99e-585c-1dad-13d0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="8b6f-9709-b982-e2c6" name="Mount" hidden="false" collective="false" import="true" targetId="d103-641f-7684-10ad" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9245-021e-e86f-e092" name="Orc Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="fccd-6ad9-0cf3-916a" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fccd-6ad9-0cf3-916a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ada3-7c40-8ea7-4e3a" name="Orc Shaman" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3daf-f0e3-0982-3b87" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="1921-4d3e-ee9c-85f8" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1430-67ec-f7e3-15bf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="7499-d1ac-3075-a045" name="Mount" hidden="false" collective="false" import="true" targetId="d103-641f-7684-10ad" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1169-b3f4-6cd3-9e17" name="Goblin Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="255c-71c0-b3ee-a19f" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="255c-71c0-b3ee-a19f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="47d3-8dd2-e373-9c44" name="Goblin Hero" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f088-80cf-db18-1bd5" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="536f-88b6-c871-a7d1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="5587-5a3e-5cb9-49ec" name="Mount" hidden="false" collective="false" import="true" targetId="d103-641f-7684-10ad" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5263-f8ea-4f34-b216" name="Goblin Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="2010-a1e5-d8e5-7d34" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2010-a1e5-d8e5-7d34" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4a5f-4966-ec80-24fb" name="Goblin Shaman" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="404c-81ed-13ce-239f" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="cdc9-298e-4747-2d0e" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5779-02ec-2c4c-e393" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="160b-55ae-98ca-6614" name="Mount" hidden="false" collective="false" import="true" targetId="d103-641f-7684-10ad" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="6af2-692c-8944-d87e" name="Wyvern" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="83e6-3db6-46e8-ee97" name="Wyvern" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0b98-8a4e-4661-a1be" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+        <infoLink id="e5da-07b2-9d6c-4d2b" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="060f-2815-28df-21c9" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9773-59ae-6ec6-586b" name="Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="063e-916e-2341-e235" name="Chariot" publicationId="38be-5c06-d4f9-7dbf" page="14" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c76e-1f20-81d0-d900" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="d103-641f-7684-10ad" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea0-a148-cbb5-4ff8" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b4e6-7eba-b246-3995" name="Chariot" hidden="false" collective="false" import="true" targetId="9773-59ae-6ec6-586b" type="selectionEntry"/>
+        <entryLink id="6cce-df55-f062-86cb" name="Wyvern" hidden="false" collective="false" import="true" targetId="6af2-692c-8944-d87e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
