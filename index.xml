@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="WarmasterBattlescribe" indexUrl="https://github.com/TomRome2Rio/WarmasterBattlescribe" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warmaster Revolution.gstz" dataType="gamesystem" dataId="cb81-2e30-9cf4-fff0" dataName="Warmaster Revolution" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warmaster_Revolution.gstz" dataType="gamesystem" dataId="cb81-2e30-9cf4-fff0" dataName="Warmaster Revolution" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Wood_Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Tomb_Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="The_Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Vampire_Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
