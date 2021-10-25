@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7f35-4840-75c3-d853" name="Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="76dc-c776-d8e7-20b7" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="37a7-e717-6383-3299" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37a7-e717-6383-3299" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="85e7-e695-814a-e195" name="Warriors" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4e2e-2a59-7a21-73a9" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="a24a-1184-c047-01d6" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="95af-ae9e-20f7-170f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5eac-a154-ecd4-e6cd" name="Handgunners" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5c84-3c89-6585-4cfe" name="Handgunners" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="09d7-d732-a041-78b9" name="Handgunners" hidden="false">
+          <description>A handgun shot can pierce armour far more easily than an arrow or a crossbow bolt. Therefore, count enemy Armour values as one worse than normal when shot by a handgun. So an armour value of 3+ counts as 4+, 4+ as 5+, and 5+ as 6+, whilst an Armour value of  6+ can&apos;t save against a handgun.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f3e4-921d-500e-cfe0" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="1d52-81d0-16af-8872" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="40ab-dc36-2a1f-2160" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b63-76b3-082f-bf90" name="Rangers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5711-3fc1-a6a3-5f9d" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5711-3fc1-a6a3-5f9d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ecce-66b2-d890-5d3f" name="Rangers" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8331-d7d6-4688-1fa4" name="Rangers" hidden="false">
+          <description>Although they are infantry the exceptional mobility of Dwarf Rangers means that they can pursue any type of retreating enemy.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1fa5-9a70-c9a0-d993" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c05c-5abb-d360-541a" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="46a2-401a-2d17-04c7" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0bd-8f25-40a5-3345" name="Troll Slayers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="70e0-34df-e736-3e90" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e0-34df-e736-3e90" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="838b-18c2-a90f-caed" name="Troll Slayers" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fea1-0bb7-7a92-ad3e" name="Troll Slayers" hidden="false">
+          <description>A Troll Slayer unit will always use its initiative to charge an enemy if possible and cannot be given orders instead. They will never use their initiative to evade.
+Two or more Troll Slayer units cannot be given the same brigade order - only a single Troll Slayer unit can ever be included in a brigade. 
+Troll Slayers cannot be driven back by shooting and never roll for drive backs.
+Troll Slayers must pursue or advance if victorious in combat where they are permitted to do so.
+Troll Slayers are unaffected by enemy that cause terror in combat - they don&apos;t suffer the -1 Attack modifier.
+Troll Slayers positively enjoy fighting monsters - the bigger the better in fact! Slayers add +1 Attack when fighting against a Monster stand.
+
+Troll Slayer units earn victory points differently to other units as follows:
+1. If a Troll Slayer unit has any stands remaining at the end of the battle then the full points value of the unit is awarded to the opposing side as victory points. It doesn&apos;t matter if the unit has 3, 2 or 1 stand remaining - if there are any stands left at all the enemy gets the full victory points.
+2. If a Troll Slayer unit is destroyed no victory points are scored by either side. Slayer units that have been destroyed still count towards the Dwarf army&apos;s losses for purposes of calculating withdrawal.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b562-e49b-cc9b-68ea" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="90b8-64d6-9a79-f9f0" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="72cf-e5ee-586b-df38" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1cc4-6527-0a05-670d" name="Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7db0-984e-d480-fa72" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7db0-984e-d480-fa72" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9bec-f5db-c630-3da1" name="Cannon" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2 + bounce</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4c06-5078-f76e-9cd1" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="0712-66b9-0b77-6882" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6210-40d6-cda2-8daf" name="Flame Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a21e-b56d-fde7-18c5" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21e-b56d-fde7-18c5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b7fc-979d-5c96-bf48" name="Flame Cannon" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2D6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="19c2-2c45-a256-c57a" name="Flame Cannon" hidden="false">
+          <description>The Flame Cannon is an infernal device that shoots a gout of flame. It has range of 30cm and its attacks are slightly unusual. Rather than having a fixed number of attacks it has 2D6 Attacks instead - roll 2 dice and add the scores together. But if the Flame Cannon rolls a double then it does not shoot as expected! Depending on the double rolled something has gone horribly wrong.
+
+Flame Cannon Misfire Chart (What’s that gurgling noise?!)
+1 The Flame Cannon explodes and is destroyed. No attacks are caused.
+2 The Flame Cannon emits an enormous belch of fire inflicting a total of 4+2D6 attacks on the target before it explodes and destroys itself.
+3 The Flame Cannon makes a worrying wheezing noise before spewing out an unusually smoky flame. Six attacks are inflicted this turn but the number of attacks caused by all further shooting is reduced from 2D6 to 1D6.
+4 The Flame Cannon splutters and its boiler goes out. The crew scramble around to re-light it. The Flame Cannon does not shoot this turn but it is otherwise unaffected.
+5 The Flame Cannon chuffs out a great gout of soot, covering the target in black smoke and hot coals. Ten attacks are inflicted this turn –otherwise the Flame cannon is unaffected.
+6 The Flame Cannon lurches in its mountings and heaves forth an especially huge flame inflicting 12+D6 attacks on the target. The Flame Cannon is otherwise unaffected. 
+
+A Flame Cannon can shoot at charging enemy in the usual way.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1b4b-e78b-6a95-d4b2" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="3c18-5d20-133c-7262" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b16-7a6a-bb67-e477" name="Gyrocopter" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a40b-017b-3193-c5d0" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a40b-017b-3193-c5d0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5d3f-abc6-9d9c-3825" name="Gyrocopter" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Machine</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c660-22a7-cdf1-3f58" name="Gyrocopter" hidden="false">
+          <description>The Gyrocopter is a flying machine, so all the usual flying rules apply. The model always forms a single unit on its own, must be given orders individually, cannot be brigaded with other units and cannot be joined by a character in combat.
+
+The Gyrocopter’s fast-firing gun is light in weight and fires a small calibre shot. It counts Armour values as one worse than normal, so an Armour value of 3+ counts as 4+, 4+ counts as 5+, 5+ counts as 6+ and 6+ does not count at all. The Gyrocopter can fire 360° around.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bafe-a34d-5193-1abd" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="c8d1-c22d-941b-5b96" name="Machine" hidden="false" targetId="0632-e402-6241-e44c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9be-665e-7be2-75ae" name="General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b1e6-496d-90c4-2924" name="General" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="746f-6769-0300-41ea" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+        <categoryLink id="9439-b69f-2c21-7e6d" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c38f-11a5-18a0-1959" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb9c-01cf-5ffb-4da7" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="f6bf-9382-a24f-25d2" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6bf-9382-a24f-25d2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="df2b-a7f3-5f1d-2ed5" name="Hero" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="36ea-32c7-e5d5-d8cd" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e1fc-d65b-f3ec-bc5d" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4cf8-1c5f-09bb-3199" name="Runesmith" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="460b-e029-eb06-38d9" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460b-e029-eb06-38d9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ab26-b304-da59-a2e1" name="Runesmith" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f61d-702e-6aa1-3f16" name="Runesmith" hidden="false">
+          <description>Although they are not wizards and cannot therefore cast spells, Dwarf Runesmiths can combat the magic of their enemies. If an enemy Wizard who is within 50cm of the Runesmith casts a spell the Runesmith can attempt to &apos;antimagic&apos; it. Note that it does not matter what the spell is or where it is cast, the Runesmith can &apos;anti-magic&apos; it so long as the caster is with 50cm. 
+
+To determine if this works roll a D6 - on the score of 4, 5 or 6 the Runesmith has succeeded and the spell doesn&apos;t work, it is dispelled by the Runesmith&apos;s defiant efforts. If he fails then the Runesmith&apos;s efforts come to nothing and the spell works as normal. 
+
+A Runesmith can attempt to anti-magic any number of spells in a turn, but only one attempt can be made to anti-magic any individual spell - even if the army includes more than one Runesmith and several are in range of the enemy Wizard. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5644-2c82-82ca-59c4" name="Characters" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="700f-bec9-eda7-8bdb" name="Anvil" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e508-65f0-546e-ea22" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e38c-ba23-01df-9d8e" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ac81-9291-15ed-5603" name="Anvil" hidden="false">
+              <description>The army can only include a single anvil and it is incorporated onto the stand of a Runesmith.
+If a Runesmith stand includes the Anvil, once per battle he can add +1 to his dice roll when he attempts to dispel enemy magic spells using the Dwarf anti-magic ability (see Runesmith).
+
+In addition the Runesmith can strike the Anvil during the Shooting phase of his own turn.
+The anvil&apos;s plangent rune-song fills the Dwarfs with even greater resolve! Roll a D6. On the score of a 4, 5 or 6 all Dwarf units within 20cm of the Runesmith are unaffected by Terror for the rest of the Dwarf player&apos;s turn. On a roll of less than 4 there is no effect.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3239-8cd2-350e-bd30" name="Magic Item" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e1-64f9-7033-2302" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2237-1e40-2f46-1e69" name="Devices of Power" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d4-5fa7-7cdc-6a28" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b475-28e9-98d3-dd67" name="Scroll of Dispelling" hidden="false" collective="false" import="true" targetId="037a-60d0-55ed-fbee" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="bd34-0280-36a4-060c" name="Staff of Spellbinding" hidden="false" collective="false" import="true" targetId="7773-cb29-af00-62c3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="91e8-a580-3927-0b1d" name="Magic Weapon" hidden="false" collective="false" import="true" targetId="c5f3-ce57-d831-230c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

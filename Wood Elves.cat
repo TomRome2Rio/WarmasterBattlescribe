@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f825-334d-1197-a1d9" name="Wood Elves" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="63e0-7931-60a5-8ce0" name="Glade Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a1ea-3cc9-c355-df7b" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="7c24-9d7c-c408-ec82" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ea-3cc9-c355-df7b" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c24-9d7c-c408-ec82" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="4cc7-e792-693a-7d9d" name="Glade Guard" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="35c6-632d-ab53-3be1" name="Glade Guard" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+          <description>Wood Elves are just as famed for their bow as their High Elf cousins, and as such Glade Guard units add +1 to their dice roll when making shooting attacks.
+Therefore these units score a hit against targets in the open on a 3+, against defended targets on a 4+, and against fortified targets on a 5+.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8260-7be4-adc3-f478" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="fa33-2db3-07f4-b865" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4b68-01e9-f061-aa40" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="3b0f-8c98-38c3-d8e1" name="Wardancers" hidden="false" collective="false" import="true" targetId="ed00-de75-f129-773b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4006-0a33-395b-1a57" name="Eternal Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="38d7-0314-e435-ed9c" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d7-0314-e435-ed9c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a8a1-cb56-e26f-6d8c" name="Eternal Guard" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b06f-2a9e-1637-1db0" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="8903-b99f-0d20-1582" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="28df-804f-fc69-0b5c" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="e628-3fad-6061-b4a8" name="Wardancers" hidden="false" collective="false" import="true" targetId="ed00-de75-f129-773b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa85-259f-1227-ca70" name="Waywatchers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6a8e-48a9-ad37-278b" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a8e-48a9-ad37-278b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="31ad-e766-4cfa-74cd" name="Waywatchers" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="04cf-58b4-fdd3-b618" name="Waywatchers" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+          <description>Famous for their bow skills even by a Wood Elf standards, Waywatchers shoot the enemy with terrifying accuracy. The add +1 to their dice roll when making shooting attacks and these attacks are resolved at -1 Armor value of the enemy.</description>
+        </rule>
+        <rule id="b1d9-1c65-b996-1fdf" name="Ambush" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+          <description>Waywatchers can also ambush. 
+Individual units can be infiltrated onto the battlefield once the game has begun. To infiltrate a unit, the Wood Elf player nominates the point where he wants the Waywathchers to appear and issues an &apos;infiltration&apos; order from any character.
+
+The character does not have to be within his normal command range to issue an iniltration order - the character&apos;s command range is considered to extend over the entire tabletop when issuing an infiltration order.
+
+Treat the order as issued to the nominated point, and apply any modifiers for distance and proximity of enemy, but ignore penalties of dense terrain. 
+The nominated point must lie either on the table within dense terrain or on any base edge other than the enemy player&apos;s own table edge. 
+If successful, place one stand on the nominated spot and arrange the rest of the unit around it. 
+The infiltrated unit cannot be placed so that it touches an enemy unit. 
+
+Once deployed, orders can be given to the unit by the same character that gave the infiltration order if he is within his normal command range, the infiltrating unit is considered to have used its first order to deploy. 
+If the infiltration order is failed the unit is not deployed and cannot infiltrate that turn, it can attempt to infiltrate in a subsequent turn at the same or a different place.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e50e-a916-3795-5c70" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="7526-a2fc-7f6b-28a5" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fff1-308c-196a-26f9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89c3-256c-e55c-9037" name="Dryads" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="384f-9831-ac17-23aa" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="384f-9831-ac17-23aa" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1cad-79ff-2b30-c95d" name="Dryads" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bb4b-6e74-48b2-c8cd" name="Forest Spirit" hidden="false" targetId="81ff-3b85-938e-49ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d9e9-63be-2c50-2ef8" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="8f67-6e80-cd6f-cf56" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bd61-0610-86c1-ad8e" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="027e-e7e4-89d2-cad9" name="Glade Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5931-1ce4-90cf-b78a" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5931-1ce4-90cf-b78a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="73f7-6117-9309-9e72" name="Glade Riders" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="73e7-c72c-abd7-3654" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ab43-5b1d-6d31-9143" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6f8-6444-e763-d652" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bed0-fbb9-457f-ac34" name="Wild Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="ba81-7c94-fb2e-8833" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba81-7c94-fb2e-8833" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9232-13f7-f8b5-d0f3" name="Wild Riders" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bcae-5485-a826-54c0" name="Wild Riders" publicationId="38be-5c06-d4f9-7dbf" page="67" hidden="false">
+          <description>Wild Riders recieve +1 Attack in the first round of every combat when fighting to the front.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="faa9-9a3b-c17a-f6f4" name="Forest Spirit" hidden="false" targetId="81ff-3b85-938e-49ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6b84-47c4-d1bc-530a" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="bbf9-422e-748f-7333" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2e3-f396-6a0c-9741" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fcd-a392-80a2-514b" name="Warhawk Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="9425-dabd-6b51-4ba3" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9425-dabd-6b51-4ba3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6733-1024-af94-18b5" name="Warhawk Riders" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0250-06ea-6c60-63c3" name="Warhawk Riders" publicationId="38be-5c06-d4f9-7dbf" page="67" hidden="false">
+          <description>Warhawk have a shooting range of only 15cm. However, they can shoot from any edge without turning stands to face their target. 
+Just measure the range from any stand edge, front, side or rear. 
+Note that this enables them to shoot at enemies charging them from any direction.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0969-a67b-dbbc-afb0" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="98ad-b10f-afbd-5a6c" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="08b7-f11d-7da4-6554" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c65-bf14-2c71-06ab" name="Treeman" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5225-8677-870f-b4a8" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5225-8677-870f-b4a8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0743-d591-c7bd-ebf0" name="Treeman" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="63ee-e28b-5bf0-d7ce" name="Treeman" publicationId="38be-5c06-d4f9-7dbf" page="67" hidden="false">
+          <description>A Treeman can enter woods and suffers no command penalty for being within the woods but cannot get defended status there.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6b12-e7f2-d851-3cf0" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+        <infoLink id="4cab-bff4-ae32-e8a6" name="Forest Spirit" hidden="false" targetId="81ff-3b85-938e-49ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c76b-67fb-dc53-e1fd" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="cf04-f59a-b344-5645" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6ba-39f0-ab18-1396" name="Treekin" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7643-c655-8a05-9850" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7643-c655-8a05-9850" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6134-9001-242b-1c96" name="Treekin" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="98b8-0ea1-cb9e-c06c" name="Forest Spirit" hidden="false" targetId="81ff-3b85-938e-49ca" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5246-29e0-5bfa-7f28" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="e7ab-5a3f-fd7f-7bdf" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="491a-3e09-bf39-a6a6" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38f3-9023-558d-0d1c" name="General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="08de-7928-3f89-034a" name="General" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="99b1-8426-1512-1785" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="d0ee-317b-3302-786f" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="09a5-c0c2-0125-3731" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d5ed-af49-dcab-3d1c" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ed64-cde5-7ea8-cef6" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="6017-7103-24af-a982" name="Forest Dragon" hidden="false" collective="false" import="true" targetId="adb1-a11d-fd84-dc3f" type="selectionEntry"/>
+            <entryLink id="ce8d-e37f-ce2e-5846" name="Giant Stag" hidden="false" collective="false" import="true" targetId="876a-0181-c842-e43a" type="selectionEntry"/>
+            <entryLink id="d107-08dc-e8b1-4980" name="Warhawk" hidden="false" collective="false" import="true" targetId="2173-ff01-1246-d0a3" type="selectionEntry"/>
+            <entryLink id="29c5-46b2-472d-fe5e" name="Unicorn" hidden="false" collective="false" import="true" targetId="95ad-a3d0-d59d-467c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6d66-bd4c-6027-50e7" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f390-e59d-88d2-9c6e" name="Noble" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="d1b2-9680-12fa-dc5c" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b2-9680-12fa-dc5c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1c03-ac00-8ed9-fdae" name="Noble" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1e39-7a1d-ad81-517e" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8ac8-dfbe-92bb-0c7b" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0ec-1493-7d3a-0993" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="afb6-4143-df72-d05b" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="c6cd-7df2-faab-7163" name="Forest Dragon" hidden="false" collective="false" import="true" targetId="adb1-a11d-fd84-dc3f" type="selectionEntry"/>
+            <entryLink id="822d-98f5-c9ef-b5e2" name="Giant Stag" hidden="false" collective="false" import="true" targetId="876a-0181-c842-e43a" type="selectionEntry"/>
+            <entryLink id="54ed-4de3-76c1-3f71" name="Warhawk" hidden="false" collective="false" import="true" targetId="2173-ff01-1246-d0a3" type="selectionEntry"/>
+            <entryLink id="c23d-8446-014f-f078" name="Unicorn" hidden="false" collective="false" import="true" targetId="95ad-a3d0-d59d-467c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="084e-d3cd-b806-87d0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="861e-7db5-b266-31c2" name="Treeman Ancient" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="def1-8662-eda5-5be4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0afb-9c13-9483-76cf" name="Treeman Ancient" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+3</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9d7a-efc6-96ca-a5a3" name="Treeman Ancient" hidden="false">
+          <description>A Treeman Ancient has -1 Command penalty when issuing orders to other than Forest Spirit units. Can join only Forest Spirit units and is able to cast Tree Singing spell. Units joined by Treeman Ancient cause terror. There can ever be only one Treeman Ancient in any Wood Elf army. Cannot be given any magic items.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="45ac-4283-3ecd-8727" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bde4-f9ba-1003-a5c6" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7556-26a7-f1b3-2c73" name="Branchwraith" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="74d7-bf4e-f235-ab3e" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74d7-bf4e-f235-ab3e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="edcd-91d4-19a2-de28" name="Branchwraith" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="011e-a73a-db2b-653b" name="Branchwraith" hidden="false">
+          <description>A Branchwraith has -1 Command penalty when issuing orders to other than Forest Spirit units. Can join only Forest Spirit units and is able to cast Tree Singing spell. Cannot be given any magic items.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1999-7ceb-be2f-9d80" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08ab-eee1-4994-3aee" name="Spell Weaver" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="756a-a08d-b1c6-6279" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756a-a08d-b1c6-6279" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f6a3-a27f-a94f-83da" name="Spell Weaver" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="297c-9428-0161-81ae" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="2c53-e6db-88b5-7b9c" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c516-e44d-321c-9099" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53b0-d69b-4459-3fc5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="539f-d84a-015d-b598" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="b5f4-1b41-70de-f9af" name="Forest Dragon" hidden="false" collective="false" import="true" targetId="adb1-a11d-fd84-dc3f" type="selectionEntry"/>
+            <entryLink id="6283-8815-d34d-f0ed" name="Giant Stag" hidden="false" collective="false" import="true" targetId="876a-0181-c842-e43a" type="selectionEntry"/>
+            <entryLink id="bea4-1748-6d9a-0b80" name="Warhawk" hidden="false" collective="false" import="true" targetId="2173-ff01-1246-d0a3" type="selectionEntry"/>
+            <entryLink id="d0c2-f6be-2cee-93f4" name="Unicorn" hidden="false" collective="false" import="true" targetId="95ad-a3d0-d59d-467c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="37b9-e961-a77a-4dd1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="fa91-53f1-69bf-1d1e" name="Army Rules" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+      <description>Before deploying armies the Wood Elf player may decide to place additional piece of wooded terrain instead of fielding one of their Wardancer units (assuming they have one in their list). 
+The additional wood must be placed so that at least part of it lies within the Wood Elf deployment zone. It cannot be placed closer than 12cm to any other terrain feature except for road or hill. The size of any single additional wooded piece cannot have any dimension larger than 16cm. In this way the player can field one additional wood per full 1000 points, however the wood cannot be placed if that would bring the totall number of the woods on the Wood Elf player&apos;s half of the table over four.</description>
+    </rule>
+    <rule id="529b-17ad-c511-e061" name="Woodland Folk" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+      <description>Due to living amongst the forests of Loren all Wood Elf infantry does not suffer the usual -1 Command penalty when within woodland. </description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="ed00-de75-f129-773b" name="Wardancers" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="277e-6dd6-caff-4de5" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="277e-6dd6-caff-4de5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c5-4b86-56bf-a15d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8d26-27ba-90ee-b850" name="Wardancers" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0 or 5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">+1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ffff-c01f-e729-2131" name="Wardancers" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false">
+          <description>Wardancer stands never fight as independent unit. Instead, you may add one stand of Wardancers to Glade Guard or Ethernal Guard unit. This brings the size of the unit to 4 stands.
+Wardancers always have the same Armour value as the rest of their unit, either 5+ or 0. They fight as part of their unit and can be removed as a uniit casualty if player wishes. Wardancer causality never count as casualty for purposes of issuing orders, which means there is no -1 Command penalty as there normally would be for units that have lost a stand. 
+Wardancer stand never count as part of the unit&apos;s formation when determining whether they move at full of half pace, so no movement penalty is incurred if they are arranged out of the unit&apos;s regular formation.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="876a-0181-c842-e43a" name="Giant Stag" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="23ff-b843-6eb8-2247" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ff-b843-6eb8-2247" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="74fb-79e7-8faf-04af" name="Giant Stag" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="84aa-bcf2-2d4c-677f" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95ad-a3d0-d59d-467c" name="Unicorn" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ab-eee1-4994-3aee" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4756-502b-eb1e-7b37" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5de1-d008-9a8d-89e1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d0d9-e709-4c38-a6dd" name="Unicorn" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f350-f471-886e-3e1a" name="Unicorn" publicationId="38be-5c06-d4f9-7dbf" page="67" hidden="false">
+          <description>This mount can be ridden by Spell Weaver only.
+The Unicorn adds +1 Attack to those of its rider. Once per battle the Unicorn’s magical power adds +1 to the dice when casting a spell. The player must announce that the Unicorn’s magic before rolling to see if the spell works. There can be only one Unicorn in the army.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="03a9-9b9d-5767-13c2" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2173-ff01-1246-d0a3" name="Warhawk" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="d566-1520-ba22-bf10" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d566-1520-ba22-bf10" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a97d-0484-1267-1443" name="Warhawk" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5493-ed30-a8b6-b899" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96c1-c40d-98cd-8fb8" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="adb1-a11d-fd84-dc3f" name="Forest Dragon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="aca0-4fbb-f982-1eb4" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca0-4fbb-f982-1eb4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1eb6-f23e-8246-b0cc" name="Forest Dragon" publicationId="38be-5c06-d4f9-7dbf" page="66" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+3</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="119b-7d40-4ba4-151b" name="Corrosive Breath" hidden="false">
+          <description>A Forest Dragon can use its Corrosive Breath attack. This is a shooting attack with a range of 20cm, which can be directed against one target as normal. The breath has 3 Attacks, which are worked out in the usual way.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a38f-eff5-8125-bb50" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+        <infoLink id="2e1f-29cb-28da-e2ac" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c46f-ef72-1b08-6a22" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="d77e-4bcb-995d-735d" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13e8-36b9-c5b7-60bc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9178-a801-8d51-f361" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6df5-6fa7-7fb0-49a2" name="Forest Dragon" hidden="false" collective="false" import="true" targetId="adb1-a11d-fd84-dc3f" type="selectionEntry"/>
+        <entryLink id="a1e0-fd52-ed49-2a02" name="Giant Stag" hidden="false" collective="false" import="true" targetId="876a-0181-c842-e43a" type="selectionEntry"/>
+        <entryLink id="86fd-0121-fa5c-6cef" name="Warhawk" hidden="false" collective="false" import="true" targetId="2173-ff01-1246-d0a3" type="selectionEntry"/>
+        <entryLink id="8346-e6d5-be60-7937" name="Unicorn" hidden="false" collective="false" import="true" targetId="95ad-a3d0-d59d-467c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="81ff-3b85-938e-49ca" name="Forest Spirit" publicationId="38be-5c06-d4f9-7dbf" page="67" hidden="false">
+      <description>Forest Spirits are woodland creatures. They are immune to terror and suffer -1 Command penalty when being ordered by General or Noble</description>
+    </rule>
+  </sharedRules>
+</catalogue>

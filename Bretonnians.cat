@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="012c-9468-baee-e275" name="Bretonnians" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="45a4-bd07-1c39-7547" name="Bowmen" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="09cc-513b-acee-b116" name="Bowmen" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8197-0678-becf-1eb5" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="9abb-38e3-6050-61f8" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c95-2eb7-991c-8375" name="Men-at-arms" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6ea6-4a64-d4e9-2866" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea6-4a64-d4e9-2866" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="b49f-78fd-f9d5-4c0d" name="Men-at-arms" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="daf0-c0b1-d491-3de5" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="2069-c728-f6b0-f8ae" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6b7-6de2-0e8b-fab5" name="Peasants" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0e54-0f0b-4bdd-3889" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e54-0f0b-4bdd-3889" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f8a2-8879-9f5d-5d38" name="Peasants" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="30eb-c9c6-7dca-d879" name="Peasants" hidden="false">
+          <description>A unit of Peasants suffers an additional -1 Command penalty when given an order. However, this penalty is waived if the Peasant unit is part of a brigade that includes at least one non-Peasant unit. 
+Peasants cannot use initiative to charge - though they can use initiative to evade as usual. Peasants are able to make supporting charge. When they charge they receive no bonus attack modifier for doing so.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4972-7ada-a8a9-d0a4" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="89ce-bea6-3584-3af5" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e698-7a4c-7779-a1c7" name="Grail Reliquae" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381f-f834-8e89-418a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f2f-aee7-8df7-f778" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="240a-b473-d7f2-0506" name="Grail Reliquae" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false">
+              <description>This sacred item can be given to one unit of Peasants only in a whole army. 
+This unit and all Peasants units touching it become Grail Pilgrims (for as long as they keep contact). Grail Pilgrims are immune to terror, don’t get the -1 Command and get +1 Attack (they still keep the restriction that they get no +1 Attacks for charging in the
+open), they have to attack by initiative and cannot be driven back or confused. Before taking any specific action with a Peasant unit check if they are still touching the unit carrying the Grail Reliquae. If they do so they count as Grail Pilgrims - if not they are simple Peasants</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fa4-b45e-3079-09db" name="Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3d89-de82-4848-65e3" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d89-de82-4848-65e3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="7d80-e022-3e1d-2fae" name="Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5731-bddb-60a0-b52b" name="Knights" hidden="false" targetId="75a7-db93-bc70-b245" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db46-4601-6aed-d588" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+        <categoryLink id="a2a2-6b11-1879-4b19" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91a6-400c-6bf2-35d8" name="Grail Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="2f5c-39ac-1a1d-75d6" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f5c-39ac-1a1d-75d6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fad6-9826-e673-69e1" name="Grail Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7c4d-4f4a-1fed-d05a" name="Grail Knights" hidden="false">
+          <description>If the unit of Grail Knights is charging against an enemy in the open it receives an additional +1 Attack modifier in the same way as chariots and monsters.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c08f-3fba-979b-6442" name="Knights" hidden="false" targetId="75a7-db93-bc70-b245" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f0ac-b277-69f6-3fbf" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+        <categoryLink id="0055-1bcf-855f-e2e3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4b7-3e0c-1073-753f" name="Squires" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="fce6-a8d0-75ac-76bb" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="32e9-b60f-58dd-73f6" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e9-b60f-58dd-73f6" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fce6-a8d0-75ac-76bb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d453-f695-e92d-f0a5" name="Squires" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="dc17-756e-f260-f935" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+        <categoryLink id="0ace-6245-5899-9ef0" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f655-a307-2e4c-3541" name="General" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ddee-5a9e-9b3f-fd4b" name="General" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f971-e497-6e88-70f2" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="4045-9e36-ab4c-658a" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dcec-2378-c649-8f59" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="4d11-7740-797b-38d9" name="Mount" hidden="false" collective="false" import="true" targetId="24d8-3a4c-0b7e-1b52" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9998-0d3f-8938-d1e3" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="1638-22aa-e787-6405" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1638-22aa-e787-6405" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d16e-edf3-f8c1-faf4" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3948-95b1-8fed-79ff" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccbe-cbaf-85d3-a7df" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="d41c-4c2e-63cd-6172" name="Mount" hidden="false" collective="false" import="true" targetId="24d8-3a4c-0b7e-1b52" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7db-5904-fe61-a8bc" name="Enchantress" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="5ced-e636-55a7-af18" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ced-e636-55a7-af18" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8e2b-8e32-4916-6abb" name="Enchantress" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="01c6-0c87-93f9-205f" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="6348-3840-7c1e-f5d4" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cfa1-6919-5f29-0a31" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="2130-e630-4d65-a07a" name="Mount" hidden="false" collective="false" import="true" targetId="24d8-3a4c-0b7e-1b52" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed55-405f-8aac-9f63" name="Pegasus Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0cb3-1964-e1a3-0836" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb3-1964-e1a3-0836" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5517-da91-0e72-aab3" name="Pegasus Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1e93-1d93-ce41-49a6" name="Pegasus Knights" hidden="false">
+          <description>Pegasus Knights can fly.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b26e-cf39-167a-cf7b" name="Knights" hidden="false" targetId="75a7-db93-bc70-b245" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ca0-ae83-d3a6-9e9c" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="fd09-3713-3b64-560e" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23d8-1ec7-1c7e-015a" name="Trebuchet" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="30e4-17d0-2c6e-4e62" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e4-17d0-2c6e-4e62" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="caa4-fda8-1da2-4fa9" name="Trebuchet" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8be1-c277-fcf4-d722" name="Trebuchet" hidden="false">
+          <description>The Bretonnian Trebuchet is one of the mightiest and most excellent stone throwers that are built in the Old World. At first it was designed to help the noble knights with the sometimes coming up and messy sieges that had to be done but later was adjusted to be used in field battles too.
+
+As the Trebuchet is such a gigantic machine it is put on a 6x4cm base the short edge being the front.
+
+To represent that Trebuchet is such a bulky warmachine which takes time to assemble and disassemble, Trebuchet can move but cannot shoot in the turn it moved.
+
+If a Trebuchet is driven back more than 10cm by shooting it is destroyed (drive backs of less than 10cm are simply ignored). If it is forced to retreat from combat it is also destroyed like any other artillery. A Trebuchet is not affected by Gerroff spell.
+
+The Trebuchet has a shooting range of 80cm. Fortified units count as defended and defended targets count as in the open. 
+No armour roll is made when shot at by a Trebuchet.
+The Trebuchet may not shoot at charging enemies.
+The Trebuchet can shoot at targets that it can see as for all other artillery, and it can shoot over the heads of friends and obstacles on lower ground just as can other artillery.</description>
+        </rule>
+        <rule id="60d2-a6ea-c7f6-27d4" name="Shooting Blind" hidden="false">
+          <description>If there is no target in sight a Trebuchet may instead shoot at the nearest enemy unit in range it cannot see. When Shooting Blind it always hits on 6+ no matter if the target is in the open, defended or even fortified.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4e23-a381-d164-1003" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="c5b6-f1af-c046-ff9c" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="7aa0-2346-46b0-c4c4" name="Army Rules" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false">
+      <description>The Bretonnian army is essentially an army of Knights and it is the Knights’ contribution to the battle that counts - never mind the pot-washers and clod-breakers. To represent this, the Bretonnian army calculates when it must withdraw from the battle in a different way to other armies. Instead of counting all of its units at the start of the game, count only the number of units of Knights, Grail Knights and Pegasus Knights. Once the army has lost a half or more of its units of Knights/Grail Knights/Pegasus Knights it must withdraw.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="edc2-7667-234a-d768" name="Unicorn" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c7db-5904-fe61-a8bc" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="02d6-8fa8-3583-d270" name="Unicorn" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d29f-0169-c289-ad5f" name="Unicorn" hidden="false">
+          <description>Only an Enchantress can ride a Unicorn. The Unicorn adds +1 to the Enchantress’s Attacks. Once per battle the Unicorn’s magical power adds +1 to the dice roll when casting a spell. The player must announce that they are using the Unicorn’s magic before rolling to see if the spell works.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="166c-be1d-a99a-be3a" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea03-517d-f1bb-c948" name="Pegasus" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f610-76c7-ae0e-f523" name="Pegasus" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="193f-6001-8dd8-26e0" name="Pegasus" hidden="false">
+          <description>The Pegasus can be ridden by a General, Hero or Enchantress and adds +1 Attack to the rider as well as allowing the character to fly.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b711-fb19-4d5a-326e" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34d5-eb13-2760-6aa1" name="Hippogriff" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f655-a307-2e4c-3541" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e436-3af8-b9c5-77db" name="Hippogriff" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8c37-a25a-7e29-43ab" name="Hippogriff" hidden="false">
+          <description>Only a General can ride a Hippogriff. The Hippogriff can fly. A unit joined by the General on Hippogriff causes terror.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9ef5-732c-365e-45cb" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="24d8-3a4c-0b7e-1b52" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3eb-1fe8-78c4-0287" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f80f-1f2f-8c0c-7891" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="75a7-db93-bc70-b245" name="Knights" publicationId="38be-5c06-d4f9-7dbf" page="29" hidden="false">
+      <description>A Knight unit will always use its initiative to charge an enemy if possible and cannot be given orders instead. 
+They will never use their initiative to evade. 
+Knights are unaffected by enemy that cause terror in combat and they don’t suffer the usual -1 Attack modifier.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
