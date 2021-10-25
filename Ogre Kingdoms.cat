@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bdc3-3d7b-647c-9954" name="Ogre Kingdoms" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="a536-5ae6-e16c-16b3" name="Bruiser" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="98c4-57d9-7fd5-569b" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="98c4-57d9-7fd5-569b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="db8b-e29d-3429-d5fe" name="Bruiser" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cdb4-658b-a946-4984" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c6c4-d532-c70b-68dd" name="Bull Rhinox" hidden="false" collective="false" import="true" targetId="69df-ed25-41ac-62c7" type="selectionEntry"/>
+        <entryLink id="b458-bf93-d763-e0b3" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8b1-c530-a816-6ef4" name="Tyrant" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d5e7-9242-0fc3-497f" name="Tyrant" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3993-4087-c517-54c5" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="bd6c-6191-4539-8a57" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="df82-805f-8ae2-c266" name="Bull Rhinox" hidden="false" collective="false" import="true" targetId="69df-ed25-41ac-62c7" type="selectionEntry"/>
+        <entryLink id="7469-3092-f940-1741" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7718-6547-5f30-93af" name="Butcher" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4704-5d6a-9e62-b21e" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4704-5d6a-9e62-b21e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1d4b-9b1a-18ad-00cb" name="Butcher" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="810b-0056-2172-89d6" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="9626-1e03-27dd-2366" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d69a-1eee-6cf1-1ebd" name="Bull Rhinox" hidden="false" collective="false" import="true" targetId="69df-ed25-41ac-62c7" type="selectionEntry"/>
+        <entryLink id="27cd-1b95-72ee-f573" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e96c-e074-4c6c-5a2f" name="Bull Ogres" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5b90-892d-85da-fc01" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b90-892d-85da-fc01" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="2fab-b6d4-0b92-5e4b" name="Bull Ogres" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d169-9bb0-e87f-4b8f" name="Bull Ogres" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>If an Ogre unit can use its initiative to charge an enemy unit of humans at the start of the Command phase then it must do so. This happens automatically and their commander can do nothing about it. ‘Humans’ encompasses all ‘men’ including Chaos Warriors and Marauders, but not Dwarfs, Elves etc.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="20f1-d9e5-374c-464b" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="7581-52a6-97ab-09eb" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5c9c-7abb-65da-3790" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="611b-bf40-2614-57d4" name="Leadbelchers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="8e4e-1ee5-8aa7-9f32" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e4e-1ee5-8aa7-9f32" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8b88-bf1a-3451-c6be" name="Leadbelchers" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bcf7-fed1-929a-dcb2" name="Leadbelchers" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>Leadbelchers&apos; cannons have a range of 15cm. The unit has 2 shooting attack, however, when making a stand and shoot reaction it has only 1 shooting attack per stand. Units hit by Leadbelchers get a -1 penalty for their armour rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4a8e-fd5d-0b7e-a2c2" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="35a0-2068-d8ba-ec48" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c8a9-3952-74c8-95cc" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83c2-def8-b246-1d2a" name="Yhetees" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="821b-5782-c13a-c5a7" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="821b-5782-c13a-c5a7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f75e-7713-d813-749d" name="Yhetees" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="774d-71b0-8f62-28d1" name="Yhetees" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>When trying to issue an order to a unit of Yhetees or to a brigade that contains a unit of Yhetees, there is always a -1 Command penalty due their beastly and unruly nature. Yhetees always ignore distance modifiers when receiving orders. 
+If a character joined Yhetees unit it can not be brigaded with Gnoblars.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3621-15ab-8cad-bf5e" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c61b-9b63-2880-d599" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="08ed-3fd3-a624-a196" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ac2-5990-0148-428d" name="Ironguts" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7899-83c4-3e1b-fe14" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7899-83c4-3e1b-fe14" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4bc9-9c35-8793-c000" name="Ironguts" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e87b-398a-0dc1-147b" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="66b9-6b04-cc2d-52c1" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a92-6dea-0cf3-1018" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ac7-c443-a571-4eab" name="Gnoblars" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="de19-5a1d-6e1d-9ac0" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de19-5a1d-6e1d-9ac0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f056-6d02-0d8a-171f" name="Gnoblars" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c77a-a3be-7839-5132" name="Gnoblars" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>Unit is allowed to shoot as if it had bows but its range is reduced to 15cm. 
+Gnoblars can only be brigaded with other Gnoblars and Yhetees. 
+Characters cannot join Gnoblar units.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1195-da4f-a045-8727" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="464e-9fb3-311d-a6ad" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="55d8-629e-08f3-8d29" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0161-12f7-1f7b-af9e" name="Rhinox Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="16ce-68a3-00be-12ed" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="16ce-68a3-00be-12ed" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="94c4-6ccd-3af3-eb52" name="Rhinox Riders" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d3a6-b6b0-8a29-1aad" name="Rhinox Riders" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>Units of Rhinox Riders are unaffected by terror. 
+Rhinox Riders receive +1 Attack when charging against an enemy in open in the same way as chariots and monsters.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2ee5-d887-1ce1-3a9b" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ab92-b3df-09ba-573d" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ad7-9cc7-8763-5725" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0023-201b-9e86-8d98" name="Gorgers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="68e2-1b8b-87df-061c" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="68e2-1b8b-87df-061c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="24a9-5bc2-1ce4-25b0" name="Gorgers" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monsters</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="099e-b391-b593-d968" name="Gorgers" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false">
+          <description>Rather than usual monsters the Gorgers are based along the long base edge as infantry stands. 
+Gorgers must use its initiative to charge an enemy if possible and never use their initiative to evade. Gorgers must always pursue, but can not advance. They are unaffected by enemies that cause terror in combat and do not suffer the usual -1 Attack modifier</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a5cb-04f8-db0a-a8aa" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ca53-0950-a1c7-0f55" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6aa5-fc48-9b95-a814" name="Slave Giant" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5430-9f57-8fd5-3b24" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5430-9f57-8fd5-3b24" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7ad1-db85-2760-b461" name="Slave Giant" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">8</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="49ee-73a7-fa4d-d81f" name="Giant" hidden="false" targetId="05ca-1037-aa50-8ebb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a968-c04b-7c95-cf7d" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="31cf-3464-45cd-a15c" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99bc-94fa-cea7-16c4" name="Scrap Launcher" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="f0d2-2b42-cfa4-20a9" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0d2-2b42-cfa4-20a9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="126c-c074-54d9-c884" name="Scrap Launcher" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2075-b4da-4528-8953" name="Scrap Launcher" publicationId="38be-5c06-d4f9-7dbf" page="52" hidden="false">
+          <description>Scrap Launcher is a Stone Thrower as described in the Rulebook.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bebc-0f60-226a-5d93" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="5dad-c9fe-0638-065b" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="69df-ed25-41ac-62c7" name="Bull Rhinox" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="28c8-c971-edf2-0dac" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="parent" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28c8-c971-edf2-0dac" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4826-72c0-fcdf-52cb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="92c4-5b9e-8bbb-8067" name="Bull Rhinox" publicationId="38be-5c06-d4f9-7dbf" page="51" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ffd-d7b2-878a-7a74" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8001-23aa-b86a-2603" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

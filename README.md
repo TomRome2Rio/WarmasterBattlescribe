@@ -16,3 +16,7 @@ Supported factions:
 - Dark Elves
 - Orcs
 - High Elves
+- Araby
+- Dogs of War
+- Ogre Kingdoms
+- Daemons

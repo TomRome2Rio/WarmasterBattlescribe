@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f08d-3f01-4758-b8a5" name="Araby" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="695e-5ef9-4e40-e918" name="Spearmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="81c3-3151-59ae-ca97" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81c3-3151-59ae-ca97" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="5aaf-cf22-7214-6354" name="Spearmen" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="60bf-f8de-2099-96eb" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="eac8-b834-2e49-4ce2" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5544-0c96-59fe-6a52" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcc7-1c49-a8b9-07c4" name="Bowmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="b30b-d3f7-c9e9-339a" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b30b-d3f7-c9e9-339a" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="0a7c-685d-de36-2fc1" name="Bowmen" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="352d-a342-e9ef-b8ea" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="3313-d072-be10-ecea" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="53f8-1930-534a-f394" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f0b-3e9b-d6e1-7344" name="Guards" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="740a-f1f0-d03a-b2b5" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="740a-f1f0-d03a-b2b5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aa16-34fa-22e6-5d3f" name="Guards" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d5c7-d101-3948-83a5" name="Guards" hidden="false">
+          <description>The Sultan&apos;s Guards are so unquestioningly loyal that they will obey the first order given to them each turn on the Command roll of 10 or less so long as the order comes from the General himself. No penalties are applied to this order. Further orders are given using the General&apos;s normal command value and penalties. This applies only to Guards and not to brigades that include Guards and other units.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b415-a002-95b4-02ed" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="17d2-8a5e-3907-aba2" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8d29-33ee-c731-a0fd" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ad8-235d-8ba5-3167" name="Knights" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3868-88eb-201e-5dd1" name="Knights" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e547-1c5b-649c-873c" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="27fe-92da-9c29-6f17" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c74f-02ad-571e-4d12" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2350-597b-ea3c-f7d7" name="Desert Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ea06-7e7d-df53-a93c" name="Desert Riders" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cac7-fbaa-ba56-cb01" name="Desert Riders" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false">
+          <description>Desert Riders have a shooting range of only 15cm, however they can shoot all round - ie behind or to the side as well as to their front. Just measure the range from any stand edge either front, side or rear. Desert Riders can shoot at enemy charging them from any direction.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5434-8238-a404-5077" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7fe0-ff6d-61ea-e000" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0bb4-e604-dc51-2b7a" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="973f-ee7a-0f18-46c9" name="Camel Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="9373-d82e-7b3b-58a9" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9373-d82e-7b3b-58a9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2d1d-a061-4008-fc93" name="Camel Riders" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cef0-9440-c6fc-89d4" name="Camel Riders" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false">
+          <description>Camel Riders ignore distance modifiers when commands are issued to them. This applies only to Camel Riders and not to brigades that include Camel Riders and other units. Remember that characters are still bound by their maximum command ranges and cannot issue orders to units beyond range. This represents their fierce self-reliance and their mounts&apos; instinctive sense of direction allowing them to
+operate effectively far from their own battle lines. 
+
+Because Camels are such intractable creatures all orders are issued with a Command penalty of -1, this penalty applies to any unit of Camel Riders or to any brigade that contains one or more units of Camel Riders</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bd81-fa67-433f-b827" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="3704-189b-9f4d-1209" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1718-db15-ec2b-60e2" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="268c-bf3b-32c7-dd16" name="Magic Carpets" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="553e-5826-fd23-cf6e" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553e-5826-fd23-cf6e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1164-b611-dc10-9607" name="Magic Carpets" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fd17-15a7-93a0-2fcf" name="Magic Carpets" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false">
+          <description>Magic carpets can fly – they have been rated as aerial &apos;cavalry&apos; as this is the closest categorisation to their type. Because they are awkward flyers, they can be pursued by any type of enemy troops. 
+
+Riders have a shooting range of only 15cm. However, they can shoot from any edge without turning stands to face their target. Just measure the range from any stand edge, front, side or rear. Note that this enables them to shoot at enemies charging them from any direction. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="dc12-605e-57a9-6047" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7ffb-7502-d6b9-ee0b" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1b95-171d-f485-ce5f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4044-afa9-a8bc-d2ea" name="Elephants" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="4bf2-1cd7-d49a-f6f5" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bf2-1cd7-d49a-f6f5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1d36-e8ac-4ef2-6037" name="Elephants" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9a97-5780-d3d3-b49c" name="Elephants" hidden="false">
+          <description>Elephants cause terror. 
+Elephants cannot be brigaded with cavalry but can be brigaded with other types of troops including other Elephants. 
+
+If an Elephant unit would otherwise become confused - for whatever reason - then it will stampede instead. It is not confused and none of the normal rules for confusion apply. Stampeding elephants automatically cease to stampede at the end of their Command phase (note that this is in the same way as confused units cease to be confused).
+
+1. Stampeding Elephants cannot be given orders or use
+initiative. Instead roll a dice at the start of the Command phase
+before moving anything else on initiative, and move the unit as
+follows.
+	1-2. Move towards the nearest enemy unit as far as possible – if the stampeding elephants contact the enemy they automatically count as charging even if they couldn&apos;t see at the start of the move. If the elephant contacts a friendly unit it counts as moving into friends
+(see below).
+	3-4. Move directly away from the nearest enemy unit as far as possible – work out the stampede direction in the same way as you would for an evade move. If the elephant contacts another enemy unit it counts as charging (see above). If the elephant contacts a  friendly unit it counts as moving into friends (see below).
+	5. Move towards the nearest friendly unit as far as possible – if the stampeding elephants contact the friendly unit they automatically count as charging even if they couldn&apos;t see at the start of the move.
+	6. Move directly away from the nearest friendly unit as far as possible - work out the stampede direction in the same way as you would for an evade move. If the elephant contacts an enemy or friendly unit it counts as charging (see above).
+
+2. A Stampeding Elephant unit that charges into an enemy or friendly unit fights in the combat phase in the same way as a regular charging unit. The stampeding Elephant counts as &apos;enemies&apos; for the duration of the combat and therefore continue to cause &apos;terror&apos; in opponents regardless of which side they are on. The Elephants count as charging in the first round. If the Elephants win a combat round then they must pursue if possible and will continue to do so each round. Should their opponents be destroyed they will not advance but will halt without reforming.
+
+3. Stampeding Elephants might conceivably move into a unit, therefore initiating combat, but are unable to form a battleline because they have insufficient movement distance. In the case of stampeding elephants, the combat is still fought, and the elephants still count as charging. It is up to the player whether he moves the elephants the extra distance required to make a battle-line or simply fights with
+the elephants in an irregular formation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b6d8-f285-0a19-8b3d" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8a8b-04ce-9111-7414" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="ec47-a6a9-c5cf-052f" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ab6-86c2-693b-ac6d" name="General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7523-f678-f94b-e516" name="General" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="21c5-b48e-d4bd-f92f" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="8459-b633-c108-b04c" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ab86-e99e-3eec-80fb" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="fee5-35a8-7b36-479c" name="Mount" hidden="false" collective="false" import="true" targetId="83df-eae5-978f-ba39" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a85-1ea9-7ae7-9207" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="7717-0396-3cc7-bfbf" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7717-0396-3cc7-bfbf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b68e-258f-668c-04d0" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5416-b4dd-68ff-c831" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5854-4844-2ab6-bb91" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="b6bb-83f7-eb3d-6ccd" name="Mount" hidden="false" collective="false" import="true" targetId="83df-eae5-978f-ba39" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8aa-a2ca-6db8-902e" name="Wizard" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="d8e9-db8d-b7ef-8ad3" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e9-db8d-b7ef-8ad3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d90f-b860-c07c-695f" name="Wizard" publicationId="38be-5c06-d4f9-7dbf" page="42" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7a25-eb13-201b-e178" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="6efe-d1bd-5485-b6e1" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cdac-c21b-facf-ec24" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="dd5e-259f-8d36-0865" name="Mount" hidden="false" collective="false" import="true" targetId="83df-eae5-978f-ba39" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="0c9f-a9d0-916a-7e69" name="Flying Carpet" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="83e9-c4cc-3c02-2793" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="83e9-c4cc-3c02-2793" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4974-2b22-aa39-cbbe" name="Flying Carpet" publicationId="38be-5c06-d4f9-7dbf" page="43" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+0</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="733a-c2ad-77fd-afe5" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a4ad-2565-5e60-0df9" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9977-5998-41b2-7bb9" name="Elephant" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="3dc6-4a6b-af1f-d727" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dc6-4a6b-af1f-d727" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9b04-a2eb-3083-d0df" name="Elephant" publicationId="38be-5c06-d4f9-7dbf" page="43" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="589e-6a67-46fa-e316" name="Elephant" publicationId="38be-5c06-d4f9-7dbf" page="43" hidden="false">
+          <description>The Elephant mount is a standard monster mount except that a character mounted on an Elephant cannot join a unit of friendly cavalry. A unit joined by a character riding an Elephant causes Terror</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e4d5-3adf-98dc-2329" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="914c-47f6-516f-0d12" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b86-dde9-b3bc-9c15" name="Djinn" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="23bc-7a26-7b24-00e5" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23bc-7a26-7b24-00e5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9535-c2d9-650b-8b54" name="Djinn" publicationId="38be-5c06-d4f9-7dbf" page="43" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2/+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7391-9cf0-3167-1fd4" name="Djinn" publicationId="38be-5c06-d4f9-7dbf" page="43" hidden="false">
+          <description>The Djinn accompanies its master and can transform both of them into a whirlwind enabling the stand to fly as for a normal flying mount. If the sorcerer has a Djinn he can also cast the Curse of the Djinn spell with a +1 casting bonus (see spells). Note that unusually the Djinn has +2 shooting attacks - these are added to a stand from a unit that the character has joined and can only be used when the character joins a unit. If the Wizard is accompanied by a Djinn then any unit he joins causes Terror. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5019-af8d-6dfd-035b" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+        <infoLink id="0a6b-defc-df7b-f7d1" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6f8d-c0fc-ae38-e10d" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="83df-eae5-978f-ba39" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d971-b8d2-d6c3-43cd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6f48-ab00-9a2b-49a4" name="Djinn" hidden="false" collective="false" import="true" targetId="4b86-dde9-b3bc-9c15" type="selectionEntry"/>
+        <entryLink id="6580-d6b2-acc6-2d41" name="Elephant" hidden="false" collective="false" import="true" targetId="9977-5998-41b2-7bb9" type="selectionEntry"/>
+        <entryLink id="1fab-5b24-e796-8946" name="Flying Carpet" hidden="false" collective="false" import="true" targetId="0c9f-a9d0-916a-7e69" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
