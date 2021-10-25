@@ -9,3 +9,10 @@ Supported factions:
 - Wood Elves
 - Vampire Counts
 - Dwarfs
+- Kislev
+- Lizardmen
+- Skaven
+- Chaos
+- Dark Elves
+- Orcs
+- High Elves
