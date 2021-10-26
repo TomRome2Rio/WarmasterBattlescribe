@@ -1,99 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="WarmasterBattlescribe" indexUrl="https://raw.githubusercontent.com/TomRome2Rio/WarmasterBattlescribe/main/Deploy/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warmaster Revolution.gstz" dataType="gamesystem" dataId="cb81-2e30-9cf4-fff0" dataName="Warmaster Revolution" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Warmaster Revolution.gstz" dataType="gamesystem" dataId="cb81-2e30-9cf4-fff0" dataName="Warmaster Revolution" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Beastmen.catz" dataType="catalogue" dataId="75c8-7f71-b538-633b" dataName="Beastmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Daemons.catz" dataType="catalogue" dataId="2810-4c06-8a2b-55be" dataName="Daemons" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="53a6-0dac-abc0-5586" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warmaster Revolution.gstz" dataType="gamesystem" dataId="cb81-2e30-9cf4-fff0" dataName="Warmaster Revolution" dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="Chaos Dwarfs.catz" dataType="catalogue" dataId="f5ce-9b94-c3bb-c28c" dataName="Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Dogs of War.catz" dataType="catalogue" dataId="9a0a-2cc7-aeb2-cf8f" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="High Elves.catz" dataType="catalogue" dataId="79af-43ba-dc5b-1a0c" dataName="High Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Kislev.catz" dataType="catalogue" dataId="b8ed-5c7d-45d7-f7cc" dataName="Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="deb8-33d7-29eb-2d68" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="53a6-0dac-abc0-5586" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Ogre Kingdoms.catz" dataType="catalogue" dataId="bdc3-3d7b-647c-9954" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Goblins.catz" dataType="catalogue" dataId="d173-e37a-594b-73c2" dataName="Goblins" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="High Elves.catz" dataType="catalogue" dataId="79af-43ba-dc5b-1a0c" dataName="High Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="deb8-33d7-29eb-2d68" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Norse.catz" dataType="catalogue" dataId="67c5-63d1-48ab-58fd" dataName="Norse" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Witch Hunters.catz" dataType="catalogue" dataId="3802-ff70-6fa7-7355" dataName="Witch Hunters" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Witch Hunters.catz" dataType="catalogue" dataId="3802-ff70-6fa7-7355" dataName="Witch Hunters" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos Dwarfs.catz" dataType="catalogue" dataId="f5ce-9b94-c3bb-c28c" dataName="Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Albion.catz" dataType="catalogue" dataId="89c1-8a42-f5b9-2632" dataName="Albion" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="deb8-33d7-29eb-2d68" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="1fdb-94ae-0833-eed6" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Goblins.catz" dataType="catalogue" dataId="d173-e37a-594b-73c2" dataName="Goblins" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="1fdb-94ae-0833-eed6" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Kislev.catz" dataType="catalogue" dataId="b8ed-5c7d-45d7-f7cc" dataName="Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Ogre Kingdoms.catz" dataType="catalogue" dataId="bdc3-3d7b-647c-9954" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Beastmen.catz" dataType="catalogue" dataId="75c8-7f71-b538-633b" dataName="Beastmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos Dwarfs.catz" dataType="catalogue" dataId="f5ce-9b94-c3bb-c28c" dataName="Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Norse.catz" dataType="catalogue" dataId="67c5-63d1-48ab-58fd" dataName="Norse" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="4efd-494d-2cfb-5bf6" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dogs of War.catz" dataType="catalogue" dataId="9a0a-2cc7-aeb2-cf8f" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Orcs.catz" dataType="catalogue" dataId="31db-d28e-85ed-2880" dataName="Orcs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="4efd-494d-2cfb-5bf6" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Albion.catz" dataType="catalogue" dataId="89c1-8a42-f5b9-2632" dataName="Albion" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Araby.catz" dataType="catalogue" dataId="f08d-3f01-4758-b8a5" dataName="Araby" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Daemons.catz" dataType="catalogue" dataId="2810-4c06-8a2b-55be" dataName="Daemons" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Araby.catz" dataType="catalogue" dataId="f08d-3f01-4758-b8a5" dataName="Araby" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Orcs.catz" dataType="catalogue" dataId="31db-d28e-85ed-2880" dataName="Orcs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Beastmen.catz" dataType="catalogue" dataId="75c8-7f71-b538-633b" dataName="Beastmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Daemons.catz" dataType="catalogue" dataId="2810-4c06-8a2b-55be" dataName="Daemons" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="53a6-0dac-abc0-5586" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dogs of War.catz" dataType="catalogue" dataId="9a0a-2cc7-aeb2-cf8f" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="High Elves.catz" dataType="catalogue" dataId="79af-43ba-dc5b-1a0c" dataName="High Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Kislev.catz" dataType="catalogue" dataId="b8ed-5c7d-45d7-f7cc" dataName="Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="53a6-0dac-abc0-5586" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Ogre Kingdoms.catz" dataType="catalogue" dataId="bdc3-3d7b-647c-9954" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Goblins.catz" dataType="catalogue" dataId="d173-e37a-594b-73c2" dataName="Goblins" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="High Elves.catz" dataType="catalogue" dataId="79af-43ba-dc5b-1a0c" dataName="High Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="deb8-33d7-29eb-2d68" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Norse.catz" dataType="catalogue" dataId="67c5-63d1-48ab-58fd" dataName="Norse" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Witch Hunters.catz" dataType="catalogue" dataId="3802-ff70-6fa7-7355" dataName="Witch Hunters" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Witch Hunters.catz" dataType="catalogue" dataId="3802-ff70-6fa7-7355" dataName="Witch Hunters" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos Dwarfs.catz" dataType="catalogue" dataId="f5ce-9b94-c3bb-c28c" dataName="Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Albion.catz" dataType="catalogue" dataId="89c1-8a42-f5b9-2632" dataName="Albion" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dark Elves.catz" dataType="catalogue" dataId="deb8-33d7-29eb-2d68" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="1fdb-94ae-0833-eed6" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Goblins.catz" dataType="catalogue" dataId="d173-e37a-594b-73c2" dataName="Goblins" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="1fdb-94ae-0833-eed6" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Kislev.catz" dataType="catalogue" dataId="b8ed-5c7d-45d7-f7cc" dataName="Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Ogre Kingdoms.catz" dataType="catalogue" dataId="bdc3-3d7b-647c-9954" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Beastmen.catz" dataType="catalogue" dataId="75c8-7f71-b538-633b" dataName="Beastmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Wood Elves.catz" dataType="catalogue" dataId="f825-334d-1197-a1d9" dataName="Wood Elves" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Chaos Dwarfs.catz" dataType="catalogue" dataId="f5ce-9b94-c3bb-c28c" dataName="Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Norse.catz" dataType="catalogue" dataId="67c5-63d1-48ab-58fd" dataName="Norse" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="4efd-494d-2cfb-5bf6" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dogs of War.catz" dataType="catalogue" dataId="9a0a-2cc7-aeb2-cf8f" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Orcs.catz" dataType="catalogue" dataId="31db-d28e-85ed-2880" dataName="Orcs" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="4efd-494d-2cfb-5bf6" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Albion.catz" dataType="catalogue" dataId="89c1-8a42-f5b9-2632" dataName="Albion" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Araby.catz" dataType="catalogue" dataId="f08d-3f01-4758-b8a5" dataName="Araby" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Daemons.catz" dataType="catalogue" dataId="2810-4c06-8a2b-55be" dataName="Daemons" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="7f35-4840-75c3-d853" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Tomb Kings.catz" dataType="catalogue" dataId="c236-df00-3186-c20d" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Araby.catz" dataType="catalogue" dataId="f08d-3f01-4758-b8a5" dataName="Araby" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Orcs.catz" dataType="catalogue" dataId="31db-d28e-85ed-2880" dataName="Orcs" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Bretonnians.catz" dataType="catalogue" dataId="012c-9468-baee-e275" dataName="Bretonnians" dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="Vampire Counts.catz" dataType="catalogue" dataId="b0d5-8427-ecf4-efd3" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="The Empire.catz" dataType="catalogue" dataId="4453-43fa-5c5d-b7d1" dataName="The Empire" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Witch Hunters.catz" dataType="catalogue" dataId="3802-ff70-6fa7-7355" dataName="Witch Hunters" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
