@@ -389,7 +389,7 @@ Terrifying enemy include especially scary creatures such as massive Dragons. The
     <rule id="6521-2a29-c168-59f4" name="Flying" publicationId="ca1f-1db0-ef04-ba2c" page="64" hidden="false">
       <description>This unit can Fly, as described in the Compendium.</description>
     </rule>
-    <rule id="05ca-1037-aa50-8ebb" name="Giant" publicationId="38be-5c06-d4f9-7dbf" page="52" hidden="false">
+    <rule id="05ca-1037-aa50-8ebb" name="Giant" publicationId="38be-5c06-d4f9-7dbf" page="49, 52" hidden="false">
       <description>Giants must always be given a separate order. They cannot be brigaded with other troops, although several Giants can be brigaded together if you wish so. 
 If you attempt to give an order to a Giant and fail then you must take a test to see what he does. Ignore potential blunders – these are taken into account by the following rules. Roll a dice and consult the Giant Goes Wild chart. 
 Where Giants are brigaded together roll for each separately. 
@@ -407,6 +407,11 @@ D6 (Oh no! What’s he doing now!)
 ceases to be confused at the end of the Command phase along with other confused units.
 	5 The Giant moves towards the nearest enemy unit that he can see as fast as he can. If he reaches the foe he will attack as normal. If friends are in the way he will walk through them causing confusion as described above.
 	6 The Giant gives a mighty bellow and rushes straight at the nearest enemy unit that he can see. Move the Giant at double his normal full pace move. If he reaches an enemy unit, he fights by jumping up and down on the foe, furiously doubling his Attacks value in the first round of combat</description>
+    </rule>
+    <rule id="38fd-374c-3fd8-b287" name="Ogres" publicationId="38be-5c06-d4f9-7dbf" page="54" hidden="false">
+      <description>Ogres are notoriously fond of fresh human meat, although they will eat practically anything that was once alive (or still is). They can’t abide the taste of greenskin and won’t touch a Goblin or an Orc unless they are seriouslypeckish. 
+
+To represent this, an Ogre unit must charge a unit of humans (literally humans… Men, not Dwarfs, Elves, etc) if it is within 20cm at the start of the Command phase and the Ogres can reach it. This happens automatically and their commander can do nothing about it!</description>
     </rule>
   </sharedRules>
 </gameSystem>
