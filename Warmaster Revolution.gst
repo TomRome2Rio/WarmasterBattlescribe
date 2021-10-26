@@ -62,7 +62,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="e921-57cf-e30f-d69b" name="The Battle Banner" publicationId="ca1f-1db0-ef04-ba2c" page="77" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b656-be71-2c44-2aea" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b656-be71-2c44-2aea" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dac-ce0f-aad3-188a" type="max"/>
       </constraints>
       <costs>
@@ -71,7 +71,7 @@
     </selectionEntry>
     <selectionEntry id="df16-6068-5f23-fb7a" name="The Banner of Shielding" publicationId="ca1f-1db0-ef04-ba2c" page="77" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765f-5722-cfea-f433" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="765f-5722-cfea-f433" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b74-d265-61b9-0eb5" type="max"/>
       </constraints>
       <costs>
@@ -80,7 +80,7 @@
     </selectionEntry>
     <selectionEntry id="573e-d342-b864-e7ca" name="The Banner of Fortitude" publicationId="ca1f-1db0-ef04-ba2c" page="77" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea6-b30e-3fb7-6ea6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cea6-b30e-3fb7-6ea6" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b72-e819-9206-b2e4" type="max"/>
       </constraints>
       <costs>
@@ -89,7 +89,7 @@
     </selectionEntry>
     <selectionEntry id="82f1-b2e4-cf6e-cb9b" name="The Banner of Steadfastness" publicationId="ca1f-1db0-ef04-ba2c" page="77" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4d0-998f-216d-3674" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4d0-998f-216d-3674" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee02-56bc-e1bd-b100" type="max"/>
       </constraints>
       <costs>
@@ -98,7 +98,7 @@
     </selectionEntry>
     <selectionEntry id="1e4a-0ac1-64eb-9688" name="The Banner of Fortune" publicationId="ca1f-1db0-ef04-ba2c" page="77" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37b-ed65-27eb-12b6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b37b-ed65-27eb-12b6" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e879-748d-e216-234a" type="max"/>
       </constraints>
       <costs>
@@ -107,7 +107,7 @@
     </selectionEntry>
     <selectionEntry id="ffef-bca5-d187-65ce" name="Sword of Destruction" publicationId="ca1f-1db0-ef04-ba2c" page="78" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c2-258b-dca5-ea21" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d7c2-258b-dca5-ea21" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb5-c4d9-b463-91e7" type="max"/>
       </constraints>
       <costs>
@@ -116,7 +116,7 @@
     </selectionEntry>
     <selectionEntry id="3824-ae5d-dc5a-5322" name="Sword of Fate" publicationId="ca1f-1db0-ef04-ba2c" page="78" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c58-ac24-1344-d6a5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c58-ac24-1344-d6a5" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc6a-6b01-d802-a08c" type="max"/>
       </constraints>
       <costs>
@@ -125,7 +125,7 @@
     </selectionEntry>
     <selectionEntry id="b7a5-9b6d-c91e-469f" name="Sword of Cleaving" publicationId="ca1f-1db0-ef04-ba2c" page="78" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d86-d9a7-df50-c901" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d86-d9a7-df50-c901" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f85-928c-7e09-2d3a" type="max"/>
       </constraints>
       <costs>
@@ -134,7 +134,7 @@
     </selectionEntry>
     <selectionEntry id="e721-4b6d-4543-7f4d" name="Sword of Might" publicationId="ca1f-1db0-ef04-ba2c" page="78" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d43-4a53-cfe8-c36b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d43-4a53-cfe8-c36b" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ba-2401-9a7f-f3a7" type="max"/>
       </constraints>
       <costs>
@@ -150,7 +150,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002a-a1e4-cedf-baf9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="002a-a1e4-cedf-baf9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd13-5b3a-2969-d946" type="max"/>
       </constraints>
       <costs>
@@ -166,7 +166,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0711-4733-af5c-ab08" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0711-4733-af5c-ab08" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6edc-ba27-b587-5e21" type="max"/>
       </constraints>
       <costs>
@@ -182,7 +182,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da2-c75f-0d44-8de2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3da2-c75f-0d44-8de2" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65b-7261-569e-ee18" type="max"/>
       </constraints>
       <costs>
@@ -198,7 +198,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="630e-3c76-a085-0dcc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="630e-3c76-a085-0dcc" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd26-5c50-0af2-0604" type="max"/>
       </constraints>
       <costs>
@@ -214,7 +214,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302f-6e95-81c6-776f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="302f-6e95-81c6-776f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d406-6870-ac18-aefc" type="max"/>
       </constraints>
       <costs>
@@ -230,7 +230,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0182-cf23-2573-535f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0182-cf23-2573-535f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d449-3cbc-dd24-0687" type="max"/>
       </constraints>
       <costs>
@@ -246,7 +246,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="108e-af28-89f2-2a0c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="108e-af28-89f2-2a0c" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b5-8491-5836-f0c6" type="max"/>
       </constraints>
       <costs>
@@ -262,7 +262,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc5-17c4-daee-9c7a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbc5-17c4-daee-9c7a" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15dd-7f05-b1f6-c6a9" type="max"/>
       </constraints>
       <costs>
@@ -278,7 +278,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="226d-bedf-108b-0e2d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="226d-bedf-108b-0e2d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ff-e0f6-1fa3-f2bf" type="max"/>
       </constraints>
       <costs>

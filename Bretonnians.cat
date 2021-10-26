@@ -17,6 +17,9 @@
         <categoryLink id="8197-0678-becf-1eb5" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
         <categoryLink id="9abb-38e3-6050-61f8" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee4e-9b77-0879-0fdb" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
       </costs>
@@ -47,6 +50,9 @@
         <categoryLink id="daf0-c0b1-d491-3de5" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
         <categoryLink id="2069-c728-f6b0-f8ae" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="63c8-9be4-a674-50b3" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
       </costs>
@@ -101,6 +107,9 @@ open), they have to attack by initiative and cannot be driven back or confused. 
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="c911-fe5b-ba08-c6db" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
       </costs>
@@ -134,6 +143,9 @@ open), they have to attack by initiative and cannot be driven back or confused. 
         <categoryLink id="db46-4601-6aed-d588" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
         <categoryLink id="a2a2-6b11-1879-4b19" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="77f7-326c-5e16-ee03" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
       </costs>
@@ -172,6 +184,9 @@ open), they have to attack by initiative and cannot be driven back or confused. 
         <categoryLink id="f0ac-b277-69f6-3fbf" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
         <categoryLink id="0055-1bcf-855f-e2e3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="9b93-6fb1-2a00-8473" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="120.0"/>
       </costs>
@@ -208,6 +223,9 @@ open), they have to attack by initiative and cannot be driven back or confused. 
         <categoryLink id="dc17-756e-f260-f935" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
         <categoryLink id="0ace-6245-5899-9ef0" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="547a-5275-e330-aa89" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
       </costs>
@@ -483,6 +501,11 @@ The Trebuchet can shoot at targets that it can see as for all other artillery, a
       <categoryLinks>
         <categoryLink id="f80f-1f2f-8c0c-7891" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="1f86-c792-32c3-b8aa" name="Hippogriff" hidden="false" collective="false" import="true" targetId="34d5-eb13-2760-6aa1" type="selectionEntry"/>
+        <entryLink id="b275-0fdd-8b71-41f5" name="Pegasus" hidden="false" collective="false" import="true" targetId="ea03-517d-f1bb-c948" type="selectionEntry"/>
+        <entryLink id="3fe2-1c58-d027-fa81" name="Unicorn" hidden="false" collective="false" import="true" targetId="edc2-7667-234a-d768" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
