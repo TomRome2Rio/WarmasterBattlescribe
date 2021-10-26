@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cb81-2e30-9cf4-fff0" name="Warmaster Revolution" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cb81-2e30-9cf4-fff0" name="Warmaster Revolution" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="38be-5c06-d4f9-7dbf" name="Armies" shortName="Armies" publisher="Warmaster Revolution Armies" publisherUrl="https://www.wm-revolution.com/articles/download.html"/>
     <publication id="ca1f-1db0-ef04-ba2c" name="Compendium" shortName="Compendium" publisher="Warmaster Revolution Compendium" publisherUrl="https://www.wm-revolution.com/articles/download.html"/>
