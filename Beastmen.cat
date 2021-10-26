@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="75c8-7f71-b538-633b" name="Beastmen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="024d-d57c-3700-ad98" name="Beastlord" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7cc8-66b0-0b16-91e8" name="Beastlord" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="71e9-32a5-c71d-927a" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="a69c-4725-e8cc-1aff" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="22c1-9b61-c2f6-a054" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="b036-d471-d9ee-370e" name="Tuskgor Chariot" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3691-9a63-209e-a930" name="Beastherd" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5915-4791-2cd8-02df" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5915-4791-2cd8-02df" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1258-79df-1cea-bddb" name="Beastherd" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c32-0cdf-e2a6-9ee3" name="Beastmen Ambush" hidden="false" targetId="df2e-158d-c3c0-607d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="087e-e2a6-cf67-5df4" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="7917-de25-cfc7-5dc9" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ac26-4bc1-7da7-80d0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23e9-f252-2e93-7892" name="Doombull" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4bee-ce0f-56ab-1566" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4bee-ce0f-56ab-1566" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fdea-6231-6b09-b084" name="Doombull" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+3</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="058a-73a0-463c-14e4" name="Doombull" publicationId="38be-5c06-d4f9-7dbf" page="70" hidden="false">
+          <description>Beastherd, Herdkin and Bestigors joined by a Doombull will become subject to Bloodlust in the same way as Minotaurs and can only receive orders from the Doombull as long as it is part of the unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c960-0fc3-ef2c-382e" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d20a-d6f7-3cf0-6b34" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76f8-d55c-45a0-f79f" name="Wargor" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="cf7c-4119-d36a-2f59" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf7c-4119-d36a-2f59" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="af8b-242a-a58e-f2c7" name="Wargor" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="846c-bc36-f33b-a550" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1d3d-8833-d7f6-7dd1" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="f37e-c9f6-c867-a981" name="Tuskgor Chariot" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="194c-1a04-efd3-35ae" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9f8-9c53-4c3a-0fd1" name="Bray Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="bcb8-fb9a-ec8c-281a" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bcb8-fb9a-ec8c-281a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5d01-24a8-7c23-d221" name="Bray Shaman" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="615b-294c-c597-c1dc" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="3a73-3515-9dcf-79f2" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5968-0682-ef09-41a8" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="340e-eb1b-b3c3-d709" name="Herdkin" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0483-51f2-8c14-e6b9" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0483-51f2-8c14-e6b9" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="0d9c-a581-e646-0010" name="Herdkin" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0057-7a5b-e361-be4c" name="Beastmen Ambush" hidden="false" targetId="df2e-158d-c3c0-607d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="096d-f6fa-4b23-1126" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="a8d7-3d89-5601-6b10" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5a4c-b6a6-e5eb-e74d" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da59-8abe-15eb-a61d" name="Bestigors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="cf24-df01-76ef-a693" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf24-df01-76ef-a693" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="17ed-e63c-5b2c-3363" name="Bestigors" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b35f-845a-7bdb-2a08" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="6b55-fb32-2191-9ef3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e8cb-6734-752f-57b2" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9796-a042-25f1-2d17" name="Minotaurs" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="54c5-3263-007f-320e" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54c5-3263-007f-320e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="557e-6b5d-fd9d-aa27" name="Minotaurs" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7cc9-bd01-ccca-40e0" name="Bloodlust" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false">
+          <description>Minotaurs are subject to Bloodlust - they always use initiative to charge if possible, and cannot be given orders instead. Minotaurs never use initiative to evade and must pursue or advance where possible.
+Minotaurs are immune to terror.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ebdd-09f8-3d13-82d8" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c51a-91df-0d51-5ef2" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3d5b-07f8-b9ef-f24c" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5359-4f14-4546-af18" name="Centigors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5565-3016-4390-c46e" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5565-3016-4390-c46e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5c1b-7b5c-d35b-7110" name="Centigors" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b50d-fca8-74de-4d94" name="Centigors" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false">
+          <description>Centigors count as infantry, they are based along the long edge, but cannot provide or recieve support.
+Centigors are able to pursue any type of enemy troops (the same as Dwarf Rangers). They can shoot in any direction all around (360 degree arc of sight) in range up to 15cm.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="29ca-97d5-a6e2-6416" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c25c-369a-6f6d-a19c" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8a99-fccb-e63f-59c4" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9140-88a8-815e-aee6" name="Tuskgor Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="bd0e-c6f9-6c81-4a74" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd0e-c6f9-6c81-4a74" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7a2a-a2fc-2364-399b" name="Tuskgor Chariots" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Chariot</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ad33-feb4-ee8d-d4ab" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7650-f2ae-4c9d-f586" name="Chariot" hidden="false" targetId="7614-125d-7c9b-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a90-2759-a1f3-9303" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a95-eab4-92ad-fe8a" name="Chaos Hounds" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="dbf3-4142-664c-c771" value="6.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dbf3-4142-664c-c771" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a4f3-3d96-7612-4924" name="Chaos Hounds" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2d80-c789-fcac-67c9" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7bfb-540b-fac2-ce6a" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0a05-2f9c-2689-f660" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac7e-d06e-a19d-a4d7" name="Dragon Ogres" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="a3ca-18d7-afe4-3334" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3ca-18d7-afe4-3334" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b98d-66bd-c149-12e5" name="Dragon Ogres" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="00c7-8414-cd62-a7a1" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="1ceb-5a40-61b9-339a" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22a3-1474-a78c-50c2" name="Chaos Spawn" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="4211-5f84-c2ee-5231" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4211-5f84-c2ee-5231" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="660b-bd83-0a8d-fdab" name="Chaos Spawn" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">3+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="481d-e591-57e8-820a" name="Chaos Spawn" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false">
+          <description>Spawn cannot be given orders in the Command phase unless they are part of a brigade that includes at least one unit other than Spawn. 
+Spawn can act on their initiative as normal. 
+Spawn can be included as a bonus to the size of the brigade up to a maximum of one Spawn per non-Spawn unit. For example, 4 Bestigor units plus 4 Spawn counts as a brigade of 4 units - the 4 Spawn do not count towards the size of the brigade. Where several Spawn are brigaded with fewer non-Spawn units, then only the additional Spawn count towards the size of the brigade. For example, 2 Bestigor units and 4 Spawn count as 4 units - 2 Spawn are included for &apos;free&apos;.
+
+Note that spawn cannot Ambush.
+
+Spawn cause terror in combat - enemies suffer the -1 Combat modifier for fighting terrifying creatures
+
+Spawn have a shooting range of 15cm and can shoot to the side or behind as well as to the front. Just measure the range from any stand edge, front, side or rear. They can therefore shoot at any enemy charging them from any direction.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6c61-3fd2-943d-5d66" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7544-db68-3d2a-8aa3" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="c09b-b1d8-de68-1f7a" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="176d-890e-c528-74ca" name="Dragon Orge Shaggoth" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="c449-972d-ebef-4f78" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c449-972d-ebef-4f78" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="79c1-b1df-7406-401c" name="Dragon Orge Shaggoth" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">8</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2a0f-2f0d-77e6-9061" name="Dragon Orge Shaggoth" publicationId="38be-5c06-d4f9-7dbf" page="70" hidden="false">
+          <description>Dragon Ogre Shaggoth must always be given a separate order. It cannot be brigaded with other troops even with other Shaggoths.
+
+Dragon Ogre Shaggoth has a great many hits, 8 in fact, which are almost impossible to inflict during even a fairly lengthy combat engagement. Because Shaggoths have so many hits we must consider the possibility of hurting the Dragon Ogre Shaggoth and reducing its effectiveness in subsequent turns.
+Therefore, if a Shaggoth has accumulated 5-7 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. 
+Once a Shaggoth is badly hurt then all accumulated hits are discounted and its maximum Hits value and Attacks are halved for the rest of the battle (to 4 Hits and 4 Attacks).
+
+A Dragon Ogre Shaggoth causes terror in its enemies.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="348d-4c3e-4221-493c" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="24f2-1b55-f277-8340" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="144b-1f94-c1ff-f229" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="175.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="62f2-d4d4-3166-8c8b" name="Tuskgor Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ec-cc1b-c5df-9b2b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aef6-cddc-01b9-19e2" name="Tuskgor Chariot" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e758-102c-6395-4661" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="df2e-158d-c3c0-607d" name="Beastmen Ambush" publicationId="38be-5c06-d4f9-7dbf" page="69" hidden="false">
+      <description>Beastherd/Herdkin units (rounded down) may be deployed as ambushers rather than be deployed at the start of the game. 
+The ambushers must be deployed in groups up to 4 units. 
+The number of Herdkin units in these groups may not exceed the number of Beastherd units.
+
+During the order movement sequence the Beastmen player nominates a point within a terrain feature or on any base edge other than the enemy player&apos;s own table edge for every group of ambushing units he wants to deploy this turn. If the nominated point is in dense terrain it must be chosen that every stand of every unit within the group must be at least partially within the terrain. 
+
+Each group of ambushing units is ordered with a brigade order. Treat the order as issued to the nominated point, and apply any modifiers for distance and enemy proximity, but ignore the penalties for dense terrain and command range. The character&apos;s command range is considered to extend over the entire tabletop when issuing an ambush order.
+If successful, place one stand, of one unit on the nominated spot and arrange the rest of the unit around it. Then place the remaining units of the ambushing group next to each other. Every unit must touch at least one stand of another unit form that ambushing group. Once deployed, orders can be given to the unit by the same character that gave the infiltration order if he is within his normal command range, the infiltrating unit is considered to have used its first order to deploy.
+
+If the ambush order is failed the ambushing group is not deployed and cannot ambush that turn, it can attempt to ambush in a subsequent turn at the same or a different place and at the same and different composition of units. Modifiers (distance, enemy within 20cm etc.) apply.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

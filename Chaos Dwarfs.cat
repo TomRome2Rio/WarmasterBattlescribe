@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c7ab-0731-72ae-d7f0" name="Chaos Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5ce-9b94-c3bb-c28c" name="Chaos Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="024d-d57c-3700-ad98" name="General" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="add" field="category" value="0b16-dd61-6889-c8ef">
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5c0-a235-e626-f974" type="atLeast"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5c0-a235-e626-f974" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>

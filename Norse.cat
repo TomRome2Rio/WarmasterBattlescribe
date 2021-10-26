@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="67c5-63d1-48ab-58fd" name="Norse" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="024d-d57c-3700-ad98" name="Jarl" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7cc8-66b0-0b16-91e8" name="Jarl" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="71e9-32a5-c71d-927a" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="6f25-b11d-456e-f998" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="22c1-9b61-c2f6-a054" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="9f50-d7bc-23ec-2831" name="Were Kin" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3691-9a63-209e-a930" name="Bondsmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5915-4791-2cd8-02df" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5915-4791-2cd8-02df" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1258-79df-1cea-bddb" name="Bondsmen" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="087e-e2a6-cf67-5df4" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="7917-de25-cfc7-5dc9" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ac26-4bc1-7da7-80d0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ec0-8a27-b7ff-687c" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="1568-3fa1-29e5-459c" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1568-3fa1-29e5-459c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d2bc-9db6-c305-74df" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fb93-78d0-d840-a0a3" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e74e-5c91-3713-55f9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="4944-d1d7-a8a8-7681" name="Were Kin" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb80-8c20-b4d5-7895" name="Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4052-50fa-33c9-ef77" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4052-50fa-33c9-ef77" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="37a1-b7e1-3782-6986" name="Shaman" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="050c-4082-52eb-0a34" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="44c6-84b4-3f91-4ab3" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd3a-a8ce-7716-b2f8" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="093d-2023-ae6e-4795" name="Were Kin" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry"/>
+        <entryLink id="1f7a-f86c-70da-d7bd" name="Horn of Resounding" hidden="false" collective="false" import="true" targetId="7ec2-b350-12f7-c8b7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dd7-bc58-a2ae-e11a" name="Huscarls" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="66a6-4be3-155d-cbbd" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="ed44-420f-e79c-aa58" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed44-420f-e79c-aa58" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66a6-4be3-155d-cbbd" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="fd03-0f0f-412c-8410" name="Huscarls" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="42cc-15d1-0872-3290" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c9d4-4311-9c2a-0774" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3611-16c1-f7ad-65a3" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a57-34c8-c92d-a270" name="Huntsmen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2f48-d85b-23a2-4602" name="Huntsmen" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="aef8-217f-b92f-74b1" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="ae37-279a-96ce-19f7" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="779a-86f0-e6c9-932a" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47a1-03cb-b2ef-cbe4" name="Berserkers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="ee1a-4691-683f-fd51" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee1a-4691-683f-fd51" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2f23-a065-323f-885f" name="Berserkers" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="042d-37a5-e6c2-a4be" name="Berserkers" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false">
+          <description>The Norsemen are famously fond of their ale, so much so that they’ve been known to wage war to obtain a decent stock for the winter. However, some Norsemen whenever they have more than the slightest drop of Mead go into a berserk frenzy, where they feel no pain and fear nothing. A bit annoying in the Mead Hall, but very useful on the battlefield.
+Such is the eagerness to get into combat that a unit of Berserkers will always use its initiative to charge an enemy if possible and can’t be given orders instead. They’ll never use their initiative to evade. They can’t be driven back by shooting and do not roll for drive backs. If victorious in
+combat, they must pursue or advance where possible. 
+Berserkers are unaffected by enemies that cause terror in combat, so they do not suffer the usual -1 Attack modifier</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="640f-5653-f455-06b8" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="c51f-dc1f-bdb9-613b" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="339b-fcd1-0b46-b6bc" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e263-85c4-14d4-d592" name="Ulfwerener" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3e24-3e74-c918-9432" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e24-3e74-c918-9432" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6fba-eabb-3699-2ac5" name="Ulfwerener" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="514e-7615-b4f2-6a16" name="Ulfwerener" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false">
+          <description>Unlike usual infantry troops, the Ulfwerener are based facing the short edge in the same way as cavalry.
+In addition they receive an additional +1 Attack modifier when they charge an enemy in the open in the same way as monsters and chariots and have an ability to pursue cavalry and chariots troop types. 
+The Ulfwerener stands can never support or being supported at all. Because of their rather bestial nature, only characters with the Were Kin Character upgrade may join units of Ulfwerener and they cannot be brigaded with any units apart from other Ulfwerener. 
+Ulfwerener units can not take any magic items.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8fdf-abbd-a13f-eff5" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="8478-3546-cdbf-47dc" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d059-10d3-ecb8-cedb" name="Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5964-e383-bbbd-29c9" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5964-e383-bbbd-29c9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="865a-c2e5-19d0-41fb" name="Cavalry" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5757-6772-c6de-1cdb" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="22c2-7d62-f674-5c96" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ff22-f815-d99d-7579" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c8f-47c4-9315-ec19" name="Storm Giant" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7189-a33a-fb0e-d506" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7189-a33a-fb0e-d506" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7b69-5330-20f5-97ed" name="Storm Giant" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">8</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a61e-dcc3-1688-5ef1" name="Giant" hidden="false" targetId="05ca-1037-aa50-8ebb" type="rule"/>
+        <infoLink id="6043-a008-b331-fdc4" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9d11-992e-dd7c-48a6" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7002-386b-254c-f3c7" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dcb-44b6-d100-8633" name="War Mammoth" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="341e-b9cd-0a94-ba01" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="341e-b9cd-0a94-ba01" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="990e-00da-7563-7614" name="War Mammoth" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">10</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e01c-24cf-103a-64d6" name="War Mammoth" hidden="false">
+          <description>The Norse War Mammoth is a huge creature used by the Norsemen on the battlefield, especially against fortified opponents where its ability to swipe troops off the ramparts with its trunk is most useful.
+
+The Mammoth is a truly huge monster, so is based on a 6x4cm base, with the shorter edge being its front. It causes terror and may attack troops on ramparts with its trunk in the same manner as a Giant. Alternatively, it may elect to batter a wall section or gateway with its tusks in the same
+manner as a battering ram. 
+
+One last option available in a siege is that if a Norse War Mammoth is in base contact with a wall section, then one Norse infantry unit may assault that wall section via the Mammoth. Climbing up ladders and ropes at the rear of the Mammoth and using boarding ramps and the like to assault the fortress walls. This is not quite as effective as assaulting from a siege tower, so the enemy being assaulted only counts as defended rather than in the open, but is much better than counting it as fortified. If a unit assaults in this manner, then the War Mammoth may not attack with its trunk or batter the walls; as such action would result in attacking your own troops or bringing a wall section down
+from under them, not a good idea, even for the Norse troops.
+
+When reduced to four or less hits at the end of Combat or Shooting phase but not destroyed and no longer engaged in combat, thereafter halve the War Mammoth’s Attacks and Hits characteristics (to 4 Attacks and 5 Hits).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1d30-81a4-4377-fe9e" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="40cc-df09-9884-6558" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="4f5b-3a83-f08a-305d" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df77-cf77-851d-1e81" name="Valkyries" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="e205-57e4-f666-cbca" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ec2-b350-12f7-c8b7" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e205-57e4-f666-cbca" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1da4-7c90-076e-e585" name="Valkyries" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="455b-4187-3879-32f2" name="Valkyries" publicationId="38be-5c06-d4f9-7dbf" page="73" hidden="false">
+          <description>There can ever be only one Valkyrie unit in a Norse army.
+
+Valkyries cannot be deployed as normal. They have to enter the battlefield during the game as an ambush.
+To deploy Valkyries during the game the Norse player nominates the point where he wants the Valkyries to appear and issues a &quot;deployment&quot; order by a shaman character with the Horn of Resounding. The shaman does not have to be within his normal command range to issue a deployment order - the shaman&apos;s command range is considered to extend over the entire tabletop when issuing a deployment order. 
+
+Treat the order as issued to the nominated point, and apply any modifiers for distance and proximity of the enemy. The nominated point must lie on any base edge other than the enemy player&apos;s own table edge. If successful, place one stand on the nominated spot and arrange the rest of the unit into formation around it. The unit cannot be placed so that it touches an enemy unit. Once deployed, orders can be given to the unit by the same character that gave the first order if he is within his normal command range, the Valkyrie unit is considered to have used its first order to deploy. If the deployment order is failed the unit is not deployed that turn. It can attempt to deploy in a subsequent turn at the same or a different place. 
+
+Should the Shaman carrying the Horn of Resounding die, they can home back to and be commanded by the General but with a -2 command penalty. 
+
+Valkyries can fly.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="36c4-36d1-174f-28b6" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b563-e274-666d-5635" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7574-5ff6-35e3-919b" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="120.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="62f2-d4d4-3166-8c8b" name="Were Kin" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="dd72-c775-12f2-9cb1" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd72-c775-12f2-9cb1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ec-492e-911c-d185" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aef6-cddc-01b9-19e2" name="Were Kin" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Special</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bae2-d866-d317-12ba" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ec2-b350-12f7-c8b7" name="Horn of Resounding" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5f9-da07-3957-84e9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d19-1caf-3a89-0321" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d6db-d908-0dfb-c363" name="Horn of Resounding" publicationId="38be-5c06-d4f9-7dbf" page="72" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4b75-5b07-b65a-77d9" name="Horn of Resounding" publicationId="38be-5c06-d4f9-7dbf" page="73" hidden="false">
+          <description>A single shaman in the army may be given this chariot upgrade. It gives the saman +1 Attack and allowes him to summon and command Valkyrie unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="62fe-14a0-4126-4280" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="15.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
