@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c7ab-0731-72ae-d7f0" name="Chaos Dwarfs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="024d-d57c-3700-ad98" name="General" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="0b16-dd61-6889-c8ef">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5c0-a235-e626-f974" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7cc8-66b0-0b16-91e8" name="General" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="71e9-32a5-c71d-927a" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="6cd1-48ba-0bab-385f" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c5c0-a235-e626-f974" name="Sorcerer Lord" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f8-df12-807a-bece" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="53d9-5e14-7276-5c8d" name="Sorcerer Lord" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+              <description>The General may be true Sorcerer Lord, maybe even one of the living ancestors from Zharr-Naggrund.
+Sorcerer Lord can cast spells like a Wizard and can carry a magic item restricted to a Wizard if desired. Once during the battle Sorcerer Lord can add +1 to the dice when attempting to cast a spell. The player must announce that the Sorcerer’s special spell casting bonus is being used before rolling for the spell.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="5b32-eab3-5513-bc76" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="22c1-9b61-c2f6-a054" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="9f50-d7bc-23ec-2831" name="Mount" hidden="false" collective="false" import="true" targetId="3929-b602-8d77-d8e7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3691-9a63-209e-a930" name="Chaos Dwarfs" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="5915-4791-2cd8-02df" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="3804-190b-41e8-efa6" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5915-4791-2cd8-02df" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3804-190b-41e8-efa6" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1258-79df-1cea-bddb" name="Chaos Dwarfs" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="087e-e2a6-cf67-5df4" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="7917-de25-cfc7-5dc9" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ac26-4bc1-7da7-80d0" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c414-996e-c083-222f" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="e0aa-2646-fc43-fc54" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0aa-2646-fc43-fc54" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dd60-34d9-91c1-13e2" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="218a-a975-19f6-51e3" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8f51-e509-3056-fb89" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="ce36-09e5-7017-efba" name="Mount" hidden="false" collective="false" import="true" targetId="3929-b602-8d77-d8e7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00a5-6266-f15b-fbdf" name="Sorcerer" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="079d-f450-d31b-fb81" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="079d-f450-d31b-fb81" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="963a-aacb-888c-10a0" name="Sorcerer" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2f8f-b7d7-98ab-407e" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="3e50-24a5-4f92-0d12" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="80ee-d90c-0117-4b95" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="d0f1-6cfb-727f-2c3a" name="Mount" hidden="false" collective="false" import="true" targetId="3929-b602-8d77-d8e7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6697-e8e3-e59b-c17e" name="Blunderbusses" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="1178-6820-43d5-b82a" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1178-6820-43d5-b82a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="504b-f211-4e2c-ca38" name="Blunderbusses" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e046-d7a0-0909-2a84" name="Blunderbusses" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>Units with Blunderbusses have a shooting range of 15cm. The unit has 2 shooting attacks. However, when making a stand and shoot attack, it has only 1 shooting attack per stand. Units hit by Blunderbusses get a -1 penalty for their armour rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b0fd-7ef6-9a0a-8ea2" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="3cac-8fdc-b933-e8c2" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="93ca-9902-339a-ed91" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5237-7b2a-d526-fa88" name="Hobgoblins" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6600-9c60-6a1e-f1c6" name="Hobgoblins" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a7fa-2d9b-4646-ab92" name="Hobgoblins" hidden="false" targetId="7410-61f1-d1d4-23a4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7b36-0d89-b564-bedf" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="16b9-871d-03d3-be04" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ef8-04c8-6752-055e" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3fc-bf16-b2c7-95af" name="Black Orcs" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="93b7-f4c4-cb58-0163" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93b7-f4c4-cb58-0163" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="23be-8bcf-cb0f-f7e3" name="Black Orcs" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2217-4dc4-7999-df39" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="58fb-495d-2a5d-bfd1" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1579-b131-c9dc-82cf" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7fa-1464-5a42-ad64" name="Orc Slaves" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="dd04-7f70-4f29-88bd" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd04-7f70-4f29-88bd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="95c7-6806-d6c5-d8ff" name="Orc Slaves" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a9ea-7303-7a6a-6c2b" name="Orc Slaves" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>Slaves are just that, captives forced to work and fight for their cruel masters’ enjoyment. A unit of Slaves suffer an additional -1 Command penalty when given an order. This penalty is waived, however, if the Slaves are brigaded with Black Orcs, Chaos Dwarfs or Blunderbusses.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="179b-fc6b-d192-9ca9" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="d9b1-c473-dcba-a279" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b551-7cd9-b62c-5558" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8f2-bd4c-668d-cdc3" name="Hobgoblin Wolf Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2dd6-df0b-6962-a9c9" name="Hobgoblin Wolf Riders" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f55c-87ef-5bd7-1a32" name="Hobgoblins" hidden="false" targetId="7410-61f1-d1d4-23a4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2cfb-b31c-f7bc-507c" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="9aea-2854-db05-8bab" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="df21-8519-7384-e4ae" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1481-ca6e-aa03-4924" name="Bull Centaurs" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3209-92cd-9ae4-7121" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3209-92cd-9ae4-7121" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="524e-1e90-90af-1859" name="Bull Centaurs" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">4</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">4</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="47b1-49a1-fee9-934e" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="3538-066c-00b8-1648" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cf57-853a-5265-46e4" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6211-0dc0-afd8-1e3f" name="Earthshaker Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3d13-10f7-f4c0-aa92" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="3d13-10f7-f4c0-aa92" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae25-38b7-9c83-0c9a" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d13-10f7-f4c0-aa92" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="796b-64ae-2406-5839" name="Earthshaker Cannon" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6d7e-3822-4c30-dc46" name="Earthshaker Cannon" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>The Earthshaker acts as a Stone Thrower as described in main Rulebook. The exception is that the drive back from the Eartshaker shot causes confusion on rolls of 4+ rather than the usual 6+. In addition the Earthshaker shot causes confusion in units in base contact with the victim unit on rolls of 6 on a D6 (roll for each unit). The total number of Earthshakers and Death Rockets in the army is limited in the way that only 1 piece of this kind is allowed per 1000 points.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f6ce-d8cc-9779-188d" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="6c01-b391-b13f-d482" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae25-38b7-9c83-0c9a" name="Death Rocket" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="04d3-4c04-4f2a-fa11" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="04d3-4c04-4f2a-fa11" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6211-0dc0-afd8-1e3f" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04d3-4c04-4f2a-fa11" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a7e7-cf28-3a51-b6ca" name="Death Rocket" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/D6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c650-cb4d-0864-8719" name="Death Rocket" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>The Death Rocket acts similar to a Stone Thrower as described in main Rulebook, except it shoots D6 times per phase and hits inflicted on the target can be still saved by the armour with -1 modifier (as for handguns). 
+
+The total number of Earthshakers and Death Rockets in the army is limited to 1 piece per 1000 points. 
+
+If the roll for the number of shots comes up a 1, the Death Rocket has misfired and you must roll a D6 against the Death Rocket Misfire chart.
+
+Death Rocket Misfire Chart
+D6 Result
+1: KABOOM! The Death Rocket explodes in spectacular fashion and is removed from play.
+
+2: Overload. The combination of too heavy rocket and too much gun powder to shoot it out causes spectacular effects both at the target and in the machine itself. The Death Rocket explodes and is removed from play and the target is suffering 2 +1D6 attacks.
+
+3: Malfunction. The rocket only does one attack. Due to the malfunction only lighter version of rockets might be used till the end of the game and the shots cause D3 attacks instead of D6.
+
+4: Dud. The rocket only does one attack. 
+
+5: Whoosh! The rocket overshoots and does D6 attacks on the first unit past the original target, regardless of range. If no target is behind the victim the rocket leaves the battlefield without causing any damage.
+
+6: Big badaboom! The rocket does 2D6 attacks instead of the normal 1D6.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="508d-28c8-69c9-09e9" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="1631-9f4f-4a8b-5a56" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4e5-1a37-ee3d-5e33" name="Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="2e6e-0b2c-ef52-15ef" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e6e-0b2c-ef52-15ef" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fb9c-286d-d2fb-07c1" name="Bolt Thrower" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fd99-ae22-49cf-682f" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="94e8-4872-4758-556d" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="62f2-d4d4-3166-8c8b" name="Great Taurus" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="dd72-c775-12f2-9cb1" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd72-c775-12f2-9cb1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aef6-cddc-01b9-19e2" name="Great Taurus" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2/2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6560-96d2-3352-a7ed" name="Great Taurus" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>Any character may be mounted on a Great Taurus. This mighty beast is fearsome to face on the battlefield. The Great Taurus causes terror and is able to fly. A Great Taurus may make a shooting attack with a range of 20cms if it joins a unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0150-6ce0-a930-3ea3" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+        <infoLink id="53fa-651f-539d-b937" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e758-102c-6395-4661" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="506c-92f3-c848-7d5b" name="Lammasu" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="2943-d7eb-93ea-3acb" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b16-dd61-6889-c8ef" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2943-d7eb-93ea-3acb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5144-4bf0-65e4-4ad8" name="Lammasu" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8dde-0340-a6cd-8dd5" name="Lammasu" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+          <description>The Lammasu is a magical creature trained to serve the Chaos Dwarfs. A Chaos Dwarf Sorcerer may be mounted on a Lammasu. A Lammasu is able to fly. In addition any hostile spell cast on a unit joined by the Lammasu may be dispelled on a roll of 4+ on a D6. (This acts like the Dwarf dispel except it only works when the Lammasu’s unit is targeted).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9a5a-b2ea-4d2a-4880" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e913-b8ee-9c67-51d2" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3929-b602-8d77-d8e7" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43e7-0df7-7daf-f336" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="660b-a38f-c129-cab1" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="53ac-37b7-ca1e-3a4c" name="Mount" hidden="false" collective="false" import="true" targetId="62f2-d4d4-3166-8c8b" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="1f72-3311-4c60-4e29" name="Character Mount" hidden="false" targetId="033b-4f66-fbae-6fac" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="6524-ad25-f0cb-46d5" name="Lammasu" hidden="false" collective="false" import="true" targetId="506c-92f3-c848-7d5b" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="7410-61f1-d1d4-23a4" name="Hobgoblins" publicationId="38be-5c06-d4f9-7dbf" page="63" hidden="false">
+      <description> Hobgoblins and Hobgoblin Wolf Riders carry an assortment of smaller ranged arms, so may only shoot up to 15cm. However, they can shoot from any edge without turning stands to face their target. Just measure the range from any stand edge, front, side or rear. Also this enables them to shoot at enemies charging them from any direction. Hobgoblins and Orcs have a strong hatred so units of Hobgoblins or Hobgoblin Wolf Riders may not brigade with units of Black Orcs or Orc Slaves.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

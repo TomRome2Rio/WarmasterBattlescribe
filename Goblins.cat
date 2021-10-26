@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d173-e37a-594b-73c2" name="Goblins" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="f351-3df6-c7d3-0eb2" name="Goblin Warboss" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2ea1-7621-ebd1-37c3" name="Goblin Warboss" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3b45-6911-5126-e29a" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="3fd3-2dae-e1ea-35d8" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e9d-e178-a074-4707" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="5406-821f-be5c-ff0b" name="Mount" hidden="false" collective="false" import="true" targetId="6d21-6cb8-4c8a-88df" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c3b-8fe9-68d4-606c" name="Goblin Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="59cb-229a-df52-9865" value="4.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="59cb-229a-df52-9865" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9a5e-19fb-8877-6e4f" name="Goblin Hero" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="dcdb-b624-586d-4fe8" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="18b1-2f9c-5a47-3c2c" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="775c-d92f-cb8a-62a0" name="Mount" hidden="false" collective="false" import="true" targetId="6d21-6cb8-4c8a-88df" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca15-3eac-a81a-0a69" name="Goblin Shaman" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="7393-1802-7e57-eda7" value="2.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7393-1802-7e57-eda7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="62e6-6de2-581a-2e36" name="Goblin Shaman" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b043-7908-250b-2c60" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="3bae-462c-adad-54e0" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="de61-19d4-0d0f-b0d9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="02fc-b4d5-f643-7b13" name="Mount" hidden="false" collective="false" import="true" targetId="6d21-6cb8-4c8a-88df" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8756-e3ce-6e70-658b" name="Goblins" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="c59a-8527-abaf-0b27" value="4.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="c59a-8527-abaf-0b27" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a746-af16-f839-d29c" name="Goblins" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="67aa-11c9-8566-7e3a" name="Goblins" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false">
+          <description>Goblins fight in a close mob or huddle in which the smallest and weediest are pushed to the outside. A unit of Goblins includes some armed with bows, some armed with clubs, a few with spears and most with whatever comes to hand. To represent this, the Goblin unit is allowed to shoot as if it had bows but its range is reduced to 15cm.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ea8c-0aa7-8fb7-761f" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="f2d7-6cac-e514-4b99" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0f6-781e-390e-2e5b" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3302-96d4-d6cd-50bb" name="Squig Herds" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f3ac-3c88-0a96-9da8" name="Squig Herds" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8e00-643f-f72c-4bd5" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="ca95-a60a-a208-d085" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2872-8556-6df5-e0e3" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfce-52f4-5b77-dd3f" name="Trolls" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7b0a-b630-e3bf-b243" value="4.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7b0a-b630-e3bf-b243" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="010e-84cf-e8fe-e395" name="Trolls" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e3ce-66ce-2316-5a7c" name="Trolls" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false">
+          <description>Trolls are especially stupid creatures that find it difficult to walk or spit straight, let alone think. Consequently, when trying to issue an order to a unit of Trolls or to a brigade that contains a unit of Trolls, there is always a -1 Command penalty.
+
+By way of compensation, Trolls have a remarkable ability. They can regenerate their bodies and repair the most horrendous injuries. To represent this, in each round of combat after whole stands have been removed Trolls automatically regenerate one outstanding hit. If no hits are left over after removing stands then regeneration has no effect. Regenerated hits still count towards the combat result for the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="66e1-b5c2-c45a-684a" name="Infantry" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="f040-d6dd-bba5-3acd" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0d9d-8070-ddc5-e103" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5acb-6af6-27d8-f8c4" name="Wolf Riders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="f1a6-6edc-159a-9e71" value="2.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="f1a6-6edc-159a-9e71" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d0c3-3d7a-40b4-91b0" name="Wolf Riders" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">2/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e4d8-b708-eec7-cd43" name="Wolf Riders" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false">
+          <description>Wolf Riders’ bows have only a short range compared to other shooting weapons, so their fire is restricted to 15cm.
+However, because their weapons are so handy they can shoot behind or to the side without turning stands to face their target. Just measure the range from any stand edge. They can therefore shoot at enemy charging them from any direction.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1c44-a2af-1329-b84a" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="de7b-a1b0-68e1-2734" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="80f4-ef2c-78f8-3e4a" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="caab-2825-5d18-3829" name="Wolf Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6d2d-8610-7b0e-b8be" value="4.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="6d2d-8610-7b0e-b8be" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9272-14e1-77d5-1e84" name="Wolf Chariots" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Chariot</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="21d5-8b75-f0b0-27b5" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="5df7-8cea-7b0b-635e" name="Chariot" hidden="false" targetId="7614-125d-7c9b-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="26d6-35bb-6c49-5a9d" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b94-e146-357e-121b" name="Pump Wagon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="eb9b-4287-6845-e962" value="2.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="eb9b-4287-6845-e962" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="186f-169f-ce3f-2949" name="Pump Wagon" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Chariot</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">D6</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d12c-6097-398a-b0fe" name="Pump Wagon" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false">
+          <description>The Pump Wagon doesn’t move in Command phase by initiative or by successful orders. Instead of this it can always move once up to 10xD6cm. This move is automatic, requiring no Command roll, and happens at any time during the Command phase. This movement can be made in any direction and will give the Pump Wagon a movement of between 10cm and 60cm each turn. A Pump Wagon does not have to move if the player wishes.
+
+In the turn it charges or for pursuits and advances, a Pump Wagon receives D6 attacks. This is in addition too any additional attacks it receives for charging enemy in the open and for being a chariot. When charged or retreating as a result of combat, its attacks are halved to D3.
+
+The Pump Wagon is crewed by Snotlings who feed on magic mushrooms making them mad and crazy, with no care for their own lives. A Pump Wagon moves forward (and backwards, as well as to the side) at a relentless rate and cannot be driven back by shooting. Nor can it be confused in any way.
+
+The Pump Wagon forms a unit of its own and cannot be brigaded with other units; not even another Pump Wagon, and a character model cannot join it.
+ 
+The enemy does not gain Victory points for a destroyed Pump Wagon and a Pump Wagon does not count towards the Goblin army’s
+break value.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bd3a-7b54-d853-1693" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="7a1e-ad6b-2a63-9eca" name="Chariot" hidden="false" targetId="7614-125d-7c9b-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3f25-b70c-0c71-8caa" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d695-741b-dae1-c66f" name="Giant" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="8ba3-7f36-96cd-d2df" value="1.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="8ba3-7f36-96cd-d2df" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="14b3-04db-9762-fc3b" name="Giant" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Monster</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">8</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">8</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="87c9-895c-9cdb-e87b" name="Giant" hidden="false" targetId="05ca-1037-aa50-8ebb" type="rule"/>
+        <infoLink id="9573-3dcf-c1a9-7467" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b2c1-3c8c-2c6f-004e" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="142a-e717-58ce-882b" name="Monster" hidden="false" targetId="e699-01f9-d20b-d148" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ec4-df77-bc50-ae82" name="Doom Diver" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e1ae-e563-3d96-b123" value="1.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="e1ae-e563-3d96-b123" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b812-b4ec-cbd9-0d88" name="Doom Diver" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b683-773e-e20c-4bae" name="Doom Diver" publicationId="38be-5c06-d4f9-7dbf" page="58" hidden="false">
+          <description>The Doom Diver Catapult is a torsion-powered device much like a Spear Chukka, but instead of firing spears it is designed to fire Goblins. These Goblins are equipped with crude, folding wings which enable them to stay aloft for a short time before plunging back down to earth. When they do land it is usually with a loud splat that causes confusion more than anything else in the enemy ranks.
+
+The Doom Diver has a range of 60cm and a unit hit by a Doom Diver is allowed to make its normal armour save. Doom Divers shoot at such a high trajectory that they cannot shoot at charging enemies.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="73b7-adba-b996-81b1" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="adf0-976c-aa4e-247b" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8763-b0ff-0070-a00e" name="Spear Chukka" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="7b9c-89d6-1235-ddc8" value="2.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7b9c-89d6-1235-ddc8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="94bd-3d21-741e-a106" name="Spear Chukka" publicationId="38be-5c06-d4f9-7dbf" page="57" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c774-006c-eedc-3386" name="Spear Chukka" publicationId="38be-5c06-d4f9-7dbf" page="58" hidden="false">
+          <description> Spear Chukka is a Bolt Thrower described in rulebook on page 75.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f036-3304-492c-73ca" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="c734-8eee-29e4-fe2f" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="bd1b-547a-1705-151a" name="Wolf Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="0bff-6687-9a09-9f9b" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67aa-5a6e-2c20-1cd6" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="0bff-6687-9a09-9f9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fc3e-a0c2-53fa-4762" name="Wolf Chariot" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Chariot Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+1</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">No</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">No</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9407-c70f-1c25-9b3c" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c84-5378-b218-b811" name="Wyvern" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="8f23-b860-d9c7-4e76" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8320-e27e-ab6e-1b44" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="8f23-b860-d9c7-4e76" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="44ed-9eab-4e8a-c969" name="Wyvern" hidden="false" typeId="c606-d5c0-acdc-a2f1" typeName="Character Mount">
+          <characteristics>
+            <characteristic name="Type" typeId="8019-e05b-5aa3-2107">Monstrous Mount</characteristic>
+            <characteristic name="Attack" typeId="591f-a188-569b-9065">+2</characteristic>
+            <characteristic name="Terror" typeId="7bc2-24e8-ff42-2e11">Yes</characteristic>
+            <characteristic name="Flying" typeId="b750-63f8-4367-18e4">Yes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="451d-4963-4906-b408" name="Flying" hidden="false" targetId="6521-2a29-c168-59f4" type="rule"/>
+        <infoLink id="0f50-75d4-355f-8e28" name="Terror" hidden="false" targetId="7a95-1c54-9c80-6cfc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="09b4-f22b-fea7-e516" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6d21-6cb8-4c8a-88df" name="Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d49d-49d0-c7e6-d717" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2e48-bd2a-9804-7530" name="New CategoryLink" hidden="false" targetId="033b-4f66-fbae-6fac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="42a4-0a75-a101-a77a" name="Wolf Chariot" hidden="false" collective="false" import="true" targetId="bd1b-547a-1705-151a" type="selectionEntry"/>
+        <entryLink id="74ee-96a4-6ed1-9eed" name="Wyvern" hidden="false" collective="false" import="true" targetId="1c84-5378-b218-b811" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3802-ff70-6fa7-7355" name="Witch Hunters" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="cb81-2e30-9cf4-fff0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="98c9-f86e-5768-9069" name="General" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1acb-79e2-50bd-a007" name="General" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">General</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+2</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fab5-31b4-1ad3-c676" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="a338-cae3-08a2-3ccf" name="General" hidden="false" targetId="edaf-0cbd-2d0b-db16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b8c2-14f1-29d1-ece3" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3179-32c1-d65e-9522" name="Hero" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="9704-f451-3daa-4329" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="9704-f451-3daa-4329" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="993e-8e5b-96d4-44c9" name="Hero" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Hero</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+1</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="73a7-75c3-4b63-a0ad" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="876d-97d0-23fa-bfd9" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16f6-be8c-94d5-5e05" name="Warrior Priest" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="0d74-8e43-7f38-5835" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="0d74-8e43-7f38-5835" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0359-4794-ae5b-b03f" name="Warrior Priest" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="d3c1-7c31-0898-2d47" typeName="Character">
+          <characteristics>
+            <characteristic name="Type" typeId="91da-5e9f-21a5-e5b6">Wizard</characteristic>
+            <characteristic name="Attack" typeId="4ccc-820f-cd87-5f11">+0</characteristic>
+            <characteristic name="Command" typeId="bf9e-513b-28bb-8ef8">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3fa2-7c53-3a2c-4eb5" name="New CategoryLink" hidden="false" targetId="9601-4cc3-93bd-e865" primary="true"/>
+        <categoryLink id="2220-b120-88b7-ae32" name="Wizard" hidden="false" targetId="0b16-dd61-6889-c8ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fe5b-23c9-03c1-050f" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c17-31d2-d5c2-462b" name="Zealots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e588-c391-b1e2-55a7" value="3.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="e588-c391-b1e2-55a7" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="af09-a096-4a5b-0d7c" name="Zealots" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f84c-429e-3816-eabd" name="Zealots" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+          <description>Zealots form the main part of a Witch Hunter army, and are drawn from mobs whipped up by priest’s sermons. 
+These troops gain +1 Attack in the first round of combat against Undead or Chaos (regardless of who charged) and will always use their initiative to charge these enemies if possible. If victorious in combat with Undead or Chaos like enemies they must pursue or advance where possible.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c1b3-cbc7-6bae-d4f2" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="d18c-a37a-bf55-638a" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a015-868c-5c4f-c339" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="3a20-914f-5bed-3eeb" name="Warhounds" hidden="false" collective="false" import="true" targetId="6a10-2e83-5c17-dc17" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27c0-3579-b9bd-a4f3" name="Halberdiers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="000b-5536-1298-6767" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="000b-5536-1298-6767" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0c7b-9c44-e11c-7cf7" name="Halberdiers" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">6+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9dbe-592c-6e89-3a5f" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="457a-45de-96d4-ce83" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a20-9e73-94ad-f277" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="654c-49fd-f4b9-b58a" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e421-87e6-d0fc-e3d3" value="2.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="e421-87e6-d0fc-e3d3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cca7-3533-d412-4a51" name="Crossbowmen" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="49f3-b9e4-439b-6045" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="eb54-0878-0d41-3c0e" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c6fb-93b6-98ec-30e7" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8eee-825b-b8fd-a488" name="Handgunners" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="259a-c0ce-2d51-1e55" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="259a-c0ce-2d51-1e55" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="06d3-6f3e-bb17-ef75" name="Handgunners" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c430-2c19-cc06-e64f" name="Handgunners" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+          <description>Count enemy armour values as one worse than normal when shot by a handgun. So an armour value of 3+ counts as 4+, 4+ as 5+, and 5+ as 6+, whilst an armour value of 6+ can’t save against a handgun.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="17c6-e241-3925-2a45" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="b5dd-562a-31f5-a26e" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8eba-2d45-e8ab-f379" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="f48d-c0dc-fad9-faf2" name="Warhounds" hidden="false" collective="false" import="true" targetId="6a10-2e83-5c17-dc17" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63bf-3808-e124-cc94" name="Flagellants" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="272a-ff90-3310-1b59" value="4.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="272a-ff90-3310-1b59" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="411b-3f5b-50b4-e756" name="Flagellants" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">5</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e056-1cb9-ab83-1852" name="Flagellants" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+          <description>So keen are they to meet their maker that a unit of Flagellants will always use its initiative to charge an enemy if possible and can’t be given orders instead. They’ll never use their initiative to evade. They can’t be driven back by shooting and do not roll for drive backs. If a unit of
+Flagellants is victorious in combat and is able to pursue the enemy or advance in accordance with the rules, then it must to do so where possible. 
+Flagellants are unaffected by enemies that cause terror in combat, so they do not suffer the usual -1 Attack modifier.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="74b4-d6d9-dabb-6aa6" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="false"/>
+        <categoryLink id="1aba-2ebc-263c-fbeb" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d496-cce1-4076-e118" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="8a2e-c540-f54e-9d88" name="Warhounds" hidden="false" collective="false" import="true" targetId="6a10-2e83-5c17-dc17" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ad9-3464-87a0-e1ca" name="Knights" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="139d-8d7c-7b0c-b00c" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="139d-8d7c-7b0c-b00c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4d58-a977-3673-688d" name="Knights" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Cavalry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">4+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f1e3-9253-db9c-86dd" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="a423-be66-4ba3-d82d" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f837-92c8-1536-5693" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a8b-3ebb-cba9-d62d" name="Pistoliers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="6c58-eca6-a184-e48b" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="6c58-eca6-a184-e48b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4503-086d-6be5-807b" name="Pistoliers" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3/1</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">5+</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="48e1-9f7f-b48e-47be" name="Pistoliers" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+          <description>Pistoliers have a shooting range of only 15cm, however they can shoot all round - i.e. behind or to the side as well as to their front. Just measure the range from any stand edge either front, side or rear. Pistoliers can shoot at enemy charging them from any direction.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7fb2-4c85-47f4-171f" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="614e-ec03-c5ab-36b5" name="Cavalry" hidden="false" targetId="d4c8-c4e8-bd4e-593b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5292-7183-f58a-2d46" name="Magic Item" hidden="false" collective="false" import="true" targetId="17ed-08de-f103-7657" type="selectionEntryGroup"/>
+        <entryLink id="8467-6c87-fb35-cb86" name="Warhounds" hidden="false" collective="false" import="true" targetId="6a10-2e83-5c17-dc17" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1629-b0a3-9d00-066a" name="Cannon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e44b-529e-0f95-ddea" value="1.0">
+          <repeats>
+            <repeat field="5b32-eab3-5513-bc76" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="e44b-529e-0f95-ddea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d703-64e1-eb25-fa77" name="Cannon" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Artillery</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">1/2+bounce</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">2</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0e9f-63ee-c903-f3d2" name="New CategoryLink" hidden="false" targetId="8df1-801e-d996-dba4" primary="true"/>
+        <categoryLink id="dac7-676b-91d6-0745" name="Artillery" hidden="false" targetId="d02e-22e8-3cae-f738" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="85.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="4e66-f85e-94db-9520" name="Chaos and/or Undead" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+      <description>Some unit’s abilities from Witch Hunter army will affect ‘Chaos and/or Undead’. ‘Chaos’ means Chaos army, Daemons army and Beastmen army. ‘Undead’ means Undead Tomb Kings army and Vampire Counts army (including units of Ghouls!).</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="6a10-2e83-5c17-dc17" name="Warhounds" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cf-28a4-f879-b17a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2956-f247-5cb4-798a" name="Warhounds" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false" typeId="b98f-b9d6-bf1a-3dc7" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="af59-1c9e-8e58-5b21">Infantry</characteristic>
+            <characteristic name="Attacks" typeId="e105-1f8b-c495-6733">3</characteristic>
+            <characteristic name="Hits" typeId="a3ef-0800-1589-0376">3</characteristic>
+            <characteristic name="Armour" typeId="91ea-8179-e271-0bdc">0</characteristic>
+            <characteristic name="Unit Size" typeId="8f42-22c8-12e8-890a">+1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d45e-dc7c-f45a-fc31" name="Warhounds" publicationId="38be-5c06-d4f9-7dbf" page="60" hidden="false">
+          <description>These monstrous hounds are bred by Witch Hunters for seeking out heretics. They are treated like Skirmishers from Empire army list but they have 30cm movement distance and no armour obviously. Because of their speed, they are able to keep up with cavalry units and
+may be attached to cavalry in the same way as to infantry. Warhounds may join the following units: Zealots, Handgunners, Pistoliers and Flagellants. If they join cavalry unit (i.e. Pistoliers), they are still considered as an infantry stand, but in this particular case they can pursue enemy cavalry together with the main unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9777-5d71-8ed0-460a" name="New CategoryLink" hidden="false" targetId="4d43-c34d-4ded-8632" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="5b32-eab3-5513-bc76" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
